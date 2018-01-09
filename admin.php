@@ -5,6 +5,11 @@ define("BIND_MODULE","Admin");
 define("APP_PATH","application/");
 //开启调试模式
 define("APP_DEBUG",true);
+//指定根目录
+define("STYLE_URL","http://localhost/nisashop");
+
+
+
 
 //引入Think php的入口文件
 require_once 'library/ThinkPHP/ThinkPHP.php';
