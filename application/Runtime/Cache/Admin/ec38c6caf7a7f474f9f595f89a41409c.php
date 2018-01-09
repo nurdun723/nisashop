@@ -21,15 +21,15 @@
 </head>
 <body>
 	<!-- 头部 -->
-	<div class="navbar">
+    <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
             <div class="navbar-header pull-left">
                 <a href="#" class="navbar-brand">
                     <small>
-                            <img src="images/logo.png" alt="">
-                        </small>
+                        <img src="http://localhost/nisashop./application/Admin/Public/img/logo.png" alt="">
+                    </small>
                 </a>
             </div>
             <!-- /Navbar Barnd -->
@@ -45,7 +45,7 @@
                         <li>
                             <a class="login-area dropdown-toggle" data-toggle="dropdown">
                                 <div class="avatar" title="View your public profile">
-                                    <img src="images/adam-jansen.jpg">
+                                    <img src="http://localhost/nisashop./application/Admin/Public/img/adam-jansen.jpg">
                                 </div>
                                 <section>
                                     <h2><span class="profile"><span>admin</span></span></h2>
@@ -56,13 +56,13 @@
                                 <li class="username"><a>David Stevenson</a></li>
                                 <li class="dropdown-footer">
                                     <a href="/admin/user/logout.html">
-                                            退出登录
-                                        </a>
+                                        退出登录
+                                    </a>
                                 </li>
                                 <li class="dropdown-footer">
                                     <a href="/admin/user/changePwd.html">
-                                            修改密码
-                                        </a>
+                                        修改密码
+                                    </a>
                                 </li>
                             </ul>
                             <!--/Login Area Dropdown-->
@@ -78,123 +78,96 @@
         </div>
     </div>
 </div>
-
 	<!-- /头部 -->
 	
 	<div class="main-container container-fluid">
 		<div class="page-container">
-			            <!-- Page Sidebar -->
+            <!-- Page Sidebar -->
             <div class="page-sidebar" id="sidebar">
-                <!-- Page Sidebar Header-->
-                <div class="sidebar-header-wrapper">
-                    <input class="searchinput" type="text">
-                    <i class="searchicon fa fa-search"></i>
-                    <div class="searchhelper">Search Reports, Charts, Emails or Notifications</div>
-                </div>
-                <!-- /Page Sidebar Header -->
-                <!-- Sidebar Menu -->
-                <ul class="nav sidebar-menu">
-                    <!--Dashboard-->
-                                        <li>
-                        <a href="/admin/main/index.html">
-                            <i class="menu-icon fa fa-gear"></i>
-
-                            <span class="menu-text">
-                                控制面板                            </span>
-
-                            <i class="menu-expand"></i>
-                        </a>
-                                            </li>                        
-                                        <li>
-                        <a href="#" class="menu-dropdown">
-                            <i class="menu-icon fa fa-gear"></i>
-
-                            <span class="menu-text">
-                                文档                            </span>
-
-                            <i class="menu-expand"></i>
-                        </a>
-                                                <ul class="submenu">
-                                                        <li>
-                                <a href="/admin/document/index.html">
-                                    <span class="menu-text">
-                                        文章列表                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                                            </li>
-                            
-                        </ul>                            
-                                            </li>                        
-                                        <li>
-                        <a href="#" class="menu-dropdown">
-                            <i class="menu-icon fa fa-gear"></i>
-
-                            <span class="menu-text">
-                                系统                            </span>
-
-                            <i class="menu-expand"></i>
-                        </a>
-                                                <ul class="submenu">
-                                                        <li>
-                                <a href="/admin/user/index.html">
-                                    <span class="menu-text">
-                                        用户管理                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                                            </li>
-                                                        <li>
-                                <a href="/admin/auth_group/index.html">
-                                    <span class="menu-text">
-                                        角色管理                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                                            </li>
-                                                        <li>
-                                <a href="/admin/auth_rule/index.html">
-                                    <span class="menu-text">
-                                        权限列表                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                                            </li>
-                            
-                        </ul>                            
-                                            </li>                        
-                    
-                </ul>
-                <!-- /Sidebar Menu -->
-            </div>
+    <!-- Page Sidebar Header-->
+    <div class="sidebar-header-wrapper">
+        <input class="searchinput" type="text">
+        <i class="searchicon fa fa-search"></i>
+        <div class="searchhelper">Search Reports, Charts, Emails or Notifications</div>
+    </div>
+    <!-- /Page Sidebar Header -->
+    <!-- Sidebar Menu -->
+    <ul class="nav sidebar-menu">
+        <!--Dashboard-->
+        <li>
+            <a href="#" class="menu-dropdown">
+               <i class="menu-icon fa fa-gear"></i>
+                    <span class="menu-text">商品管理</span>
+                <i class="menu-expand"></i>
+            </a>
+            <ul class="submenu">
+                <li>
+                    <a href="#">
+                        <span class="menu-text">商品分类</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon fa fa-gear"></i>
+                <span class="menu-text">文章管理</span>
+                <i class="menu-expand"></i>
+            </a>
+            <ul class="submenu">
+                <li>
+                    <a href="#">
+                        <span class="menu-text">文章列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon fa fa-gear"></i>
+                <span class="menu-text">管理员管理</span>
+                <i class="menu-expand"></i>
+            </a>
+            <ul class="submenu">
+                <li>
+                    <a href="#">
+                        <span class="menu-text">管理员列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!-- /Sidebar Menu -->
+</div>
             <!-- /Page Sidebar -->
             <!-- Page Content -->
             <div class="page-content">
                 <!-- Page Breadcrumb -->
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
-                                        <li class="active">控制面板</li>
-                                        </ul>
+                        <li class="active">控制面板</li>
+                    </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
-
                 <!-- Page Body -->
                 <div class="page-body">
-                    
-				<div style="text-align:center; line-height:1000%; font-size:24px;">
-                童老师THinkPHP第五季 大型商城项目开发<br /><p style="color:#aaa;">ThinkPHP交流群：484519446</p></div>
+				    <div style="text-align:center; line-height:1000%; font-size:24px;">欢迎来到妮萨商城</div>
                 </div>
-                
-
-                </div>
-                <!-- /Page Body -->
             </div>
+                <!-- /Page Body -->
+        </div>
             <!-- /Page Content -->
 		</div>	
 	</div>
-
 	    <!--Basic Scripts-->
-    <script src="style/jquery_002.js"></script>
-    <script src="style/bootstrap.js"></script>
-    <script src="style/jquery.js"></script>
+    <script src="http://localhost/nisashop./application/Admin/Public/style/jquery_002.js"></script>
+    <script src="http://localhost/nisashop./application/Admin/Public/style/bootstrap.js"></script>
+    <script src="http://localhost/nisashop./application/Admin/Public/style/jquery.js"></script>
     <!--Beyond Scripts-->
-    <script src="style/beyond.js"></script>
+    <script src="http://localhost/nisashop./application/Admin/Public/style/beyond.js"></script>
     
 
 
