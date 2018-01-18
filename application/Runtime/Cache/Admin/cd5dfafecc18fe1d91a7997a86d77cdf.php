@@ -21,7 +21,7 @@
 </head>
 <body>
 	<!-- 头部 -->
-    <div class="navbar">
+        <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -82,8 +82,8 @@
 	
 	<div class="main-container container-fluid">
 		<div class="page-container">
-            <!-- Page Sidebar -->
-            <div class="page-sidebar" id="sidebar">
+			<!-- Page Sidebar -->
+                <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -175,20 +175,87 @@
                 <!-- Page Breadcrumb -->
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
-                        <li class="active">控制面板</li>
+                      <li>
+                        <a href="/admin.php/Index/index">系统</a>
+                      </li>
+                      <li class=""><a href="#">管理员管理</a></li>
+                      <li class="active">管理员列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
+
                 <!-- Page Body -->
                 <div class="page-body">
-				    <div style="text-align:center; line-height:1000%; font-size:24px;">欢迎来到妮萨商城</div>
+                    
+<button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Admin/add'"> <i class="fa fa-plus"></i> Add
+</button>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="flip-scroll">
+                    <table class="table table-bordered table-hover">
+                        <thead class="">
+                            <tr>
+                                <th class="text-center">ID</th>
+                                <th class="text-center">用户名称</th>
+                                <th class="text-center">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                <td align="center">6</td>
+                                <td align="center">test</td>
+                                <td align="center">
+                                    <a href="/admin/user/edit/id/6.html" class="btn btn-primary btn-sm shiny">
+                                        <i class="fa fa-edit"></i> 编辑
+                                    </a>
+                                    <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/6.html')" class="btn btn-danger btn-sm shiny">
+                                        <i class="fa fa-trash-o"></i> 删除
+                                    </a>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td align="center">7</td>
+                                <td align="center">aaaaaa</td>
+                                <td align="center">
+                                    <a href="/admin/user/edit/id/7.html" class="btn btn-primary btn-sm shiny">
+                                        <i class="fa fa-edit"></i> 编辑
+                                    </a>
+                                    <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/7.html')" class="btn btn-danger btn-sm shiny">
+                                        <i class="fa fa-trash-o"></i> 删除
+                                    </a>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td align="center">8</td>
+                                <td align="center">bbb</td>
+                                <td align="center">
+                                    <a href="/admin/user/edit/id/8.html" class="btn btn-primary btn-sm shiny">
+                                        <i class="fa fa-edit"></i> 编辑
+                                    </a>
+                                    <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/8.html')" class="btn btn-danger btn-sm shiny">
+                                        <i class="fa fa-trash-o"></i> 删除
+                                    </a>
+                                </td>
+                            </tr>
+                                                    </tbody>
+                    </table>
                 </div>
+                <div>
+                	                </div>
             </div>
-                <!-- /Page Body -->
         </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
             <!-- /Page Content -->
 		</div>	
 	</div>
+
 	    <!--Basic Scripts-->
     <script src="http://localhost/nisashop./application/Admin/Public/style/jquery_002.js"></script>
     <script src="http://localhost/nisashop./application/Admin/Public/style/bootstrap.js"></script>
