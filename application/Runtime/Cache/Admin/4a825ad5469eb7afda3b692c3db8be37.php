@@ -195,11 +195,11 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="" method="post">
+                    <form class="form-horizontal" role="form" action="/admin.php/Admin/add" method="post">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">用户名</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="username" placeholder="" name="username" required="" type="text">
+                                <input class="form-control" id="username"  name="username" type="text">
                             </div>
                             <p class="help-block col-sm-4 red">* 必填</p>
                         </div>
@@ -207,7 +207,7 @@
                         <div class="form-group">
                             <label for="group_id" class="col-sm-2 control-label no-padding-right">密码</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="password" placeholder="" name="password" required="" type="password">
+                                <input class="form-control" id="password"  name="password"  type="password">
                             </div>
                             <p class="help-block col-sm-4 red">* 必填</p>
                         </div>  
