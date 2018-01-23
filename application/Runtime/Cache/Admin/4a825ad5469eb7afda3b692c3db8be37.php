@@ -102,19 +102,19 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/admin.php/admin/lst">
+                    <a href="/nisashop/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/admin/add">
+                    <a href="/nisashop/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/admin/edit">
+                    <a href="/nisashop/admin.php/admin/edit">
                         <span class="menu-text">修改管理员</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -176,9 +176,9 @@
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
                       <li>
-                        <a href="/admin.php/Index/index">系统</a>
+                        <a href="/nisashop/admin.php/Index/index">系统</a>
                       </li>
-                      <li><a href="/admin.php/Admin/lst">管理员管理</a></li>
+                      <li><a href="/nisashop/admin.php/Admin/lst">管理员管理</a></li>
                       <li class="active">新增管理员</li>
                     </ul>
                 </div>
@@ -195,11 +195,11 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/admin.php/Admin/add" method="post">
+                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/Admin/add" method="post">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">用户名</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="username"  name="username" type="text">
+                                <input class="form-control" id="username" placeholder="请输入用户名"  name="username" type="text">
                             </div>
                             <p class="help-block col-sm-4 red">* 必填</p>
                         </div>
@@ -207,7 +207,7 @@
                         <div class="form-group">
                             <label for="group_id" class="col-sm-2 control-label no-padding-right">密码</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="password"  name="password"  type="password">
+                                <input class="form-control" id="password"  placeholder="请输入密码" name="password"  type="password">
                             </div>
                             <p class="help-block col-sm-4 red">* 必填</p>
                         </div>  

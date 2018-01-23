@@ -21,7 +21,7 @@
 </head>
 <body>
 	<!-- 头部 -->
-        <div class="navbar">
+    <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -83,7 +83,7 @@
 	<div class="main-container container-fluid">
 		<div class="page-container">
 			<!-- Page Sidebar -->
-                <div class="page-sidebar" id="sidebar">
+            <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -102,19 +102,19 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/admin.php/admin/lst">
+                    <a href="/nisashop/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/admin/add">
+                    <a href="/nisashop/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/admin/edit">
+                    <a href="/nisashop/admin.php/admin/edit">
                         <span class="menu-text">修改管理员</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -176,7 +176,7 @@
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
                       <li>
-                        <a href="/admin.php/Index/index">系统</a>
+                        <a href="/nisashop/admin.php/Index/index">系统</a>
                       </li>
                       <li class=""><a href="#">管理员管理</a></li>
                       <li class="active">管理员列表</li>
@@ -187,73 +187,58 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-<button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Admin/add'"> <i class="fa fa-plus"></i> Add
-</button>
-<div class="row">
-    <div class="col-lg-12 col-sm-12 col-xs-12">
-        <div class="widget">
-            <div class="widget-body">
-                <div class="flip-scroll">
-                    <table class="table table-bordered table-hover">
-                        <thead class="">
-                            <tr>
-                                <th class="text-center">ID</th>
-                                <th class="text-center">用户名称</th>
-                                <th class="text-center">操作</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                                        <tr>
-                                <td align="center">6</td>
-                                <td align="center">test</td>
-                                <td align="center">
-                                    <a href="/admin/user/edit/id/6.html" class="btn btn-primary btn-sm shiny">
-                                        <i class="fa fa-edit"></i> 编辑
-                                    </a>
-                                    <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/6.html')" class="btn btn-danger btn-sm shiny">
-                                        <i class="fa fa-trash-o"></i> 删除
-                                    </a>
-                                </td>
-                            </tr>
-                                                        <tr>
-                                <td align="center">7</td>
-                                <td align="center">aaaaaa</td>
-                                <td align="center">
-                                    <a href="/admin/user/edit/id/7.html" class="btn btn-primary btn-sm shiny">
-                                        <i class="fa fa-edit"></i> 编辑
-                                    </a>
-                                    <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/7.html')" class="btn btn-danger btn-sm shiny">
-                                        <i class="fa fa-trash-o"></i> 删除
-                                    </a>
-                                </td>
-                            </tr>
-                                                        <tr>
-                                <td align="center">8</td>
-                                <td align="center">bbb</td>
-                                <td align="center">
-                                    <a href="/admin/user/edit/id/8.html" class="btn btn-primary btn-sm shiny">
-                                        <i class="fa fa-edit"></i> 编辑
-                                    </a>
-                                    <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/8.html')" class="btn btn-danger btn-sm shiny">
-                                        <i class="fa fa-trash-o"></i> 删除
-                                    </a>
-                                </td>
-                            </tr>
-                                                    </tbody>
-                    </table>
-                </div>
-                <div>
-                	                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/nisashop/admin.php/Admin/add'"> <i class="fa fa-plus"></i> Add </button>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <div class="widget">
+                                <div class="widget-body">
+                                <div class="flip-scroll">
+                                    <table class="table table-bordered table-hover">
+                                    <thead class="">
+                                         <tr>
+                                            <th class="text-center">ID</th>
+                                            <th class="text-center">用户名称</th>
+                                            <th class="text-center">操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <?php if(is_array($adminers)): $i = 0; $__LIST__ = $adminers;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
+                                            <td align="center"><?php echo ($value["id"]); ?></td>
+                                            <td align="center"><?php echo ($value["username"]); ?></td>
+                                            <td align="center">
+                                                <a href="/nisashop/admin.php/Admin/edit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                    <i class="fa fa-edit"></i> 编辑
+                                                </a>
+                                                <a href="#" onClick="warning('确实要删除吗', '/nisashop/admin.php/Admin/delt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                    <i class="fa fa-trash-o"></i> 删除
+                                                </a>
+                                            </td>
+                                          </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </tbody>
+                                    </table>
+                                    <div style="height:40px;">
+                                        <ul class="pagination" style="float:right; margin:10px 0 0 0; ">
+                                                <li class="active" style="margin: 10px 0 ;"><?php echo ($page); ?></li>
 
+
+                                            <!--<li class="prev disabled"><a href="#">上一页</a></li>
+                                            <li class="active"><a href="#">1</a></li>-->
+                                            <!--<li><a href="#"><?php echo ($page); ?></a></li>-->
+                                            <!--<li class="next"><a href="#">下一页</a></li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- /Page Body -->
             </div>
             <!-- /Page Content -->
-		</div>	
+		</div>
 	</div>
 
 	    <!--Basic Scripts-->
