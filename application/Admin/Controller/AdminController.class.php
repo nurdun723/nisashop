@@ -1,7 +1,6 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
-class AdminController extends Controller {
+class AdminController extends CommonController {
     public function lst(){
         $admin=D('admin');//实例化模型
         $count=$admin->count();//查询满足条件的总记录数
@@ -22,7 +21,7 @@ class AdminController extends Controller {
         if(IS_POST){
            //创建数据对象 ,但先不会输入到数据库进行验证，验证通过了才存入到数据库
            if($admin->create()){
-               $admin->password=$admin->password; /*md5($admin->password);*/
+               $admin->password=md5($admin->password); /*md5($admin->password);*/
                //添加数据
                if($admin->add()){
                    $this->success('添加管理员成功！',U('lst'));
