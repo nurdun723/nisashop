@@ -102,19 +102,19 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/admin/lst">
+                    <a href="/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/admin/add">
+                    <a href="/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/admin/edit">
+                    <a href="/admin.php/admin/edit">
                         <span class="menu-text">修改管理员</span>
                         <i class="menu-expand"></i>
                     </a>
