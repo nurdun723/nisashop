@@ -1,0 +1,6 @@
+商品分类表：sp_ category
+create table sp_category(
+     cateid int unsigned primary key auto_increment,
+     catename varchar(50) not null,
+     pid int default 0 
+);

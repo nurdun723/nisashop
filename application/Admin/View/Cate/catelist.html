@@ -37,8 +37,8 @@
                       <li>
                         <a href="__MODULE__/Index/index">系统</a>
                       </li>
-                      <li class=""><a href="#">管理员管理</a></li>
-                      <li class="active">管理员列表</li>
+                      <li class=""><a href="#">商品管理</a></li>
+                      <li class="active">商品分类列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -55,16 +55,16 @@
                                     <table class="table table-bordered table-hover">
                                     <thead class="">
                                          <tr>
-                                            <th class="text-center">ID</th>
-                                            <th class="text-center">用户名称</th>
+                                            <th class="text-center" style="width: 15%">商品分类ID</th>
+                                            <th align="left">商品分类名称</th>
                                             <th class="text-center">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                     <volist name="adminers" id="value">
                                           <tr>
-                                            <td align="center">{$value.id}</td>
-                                            <td align="center">{$value.username}</td>
+                                            <td align="center" style="width: 15%"></td>
+                                            <td align="left"></td>
                                             <td align="center">
                                                 <a href="__CONTROLLER__/edit/id/{$value.id}" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑

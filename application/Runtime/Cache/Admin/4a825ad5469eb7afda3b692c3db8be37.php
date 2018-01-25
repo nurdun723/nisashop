@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html><head>
 	    <meta charset="utf-8">
-    <title>童老师ThinkPHP交流群：484519446</title>
+    <title>nisa商城</title>
 
     <meta name="description" content="Dashboard">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,19 +48,19 @@
                                     <img src="http://localhost/nisashop./application/Admin/Public/img/adam-jansen.jpg">
                                 </div>
                                 <section>
-                                    <h2><span class="profile"><span>admin</span></span></h2>
+                                    <h2><span class="profile"><span><?php echo (session('username')); ?></span></span></h2>
                                 </section>
                             </a>
                             <!--Login Area Dropdown-->
                             <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
                                 <li class="username"><a>David Stevenson</a></li>
                                 <li class="dropdown-footer">
-                                    <a href="/admin/user/logout.html">
+                                    <a href="/admin.php/Admin/logout">
                                         退出登录
                                     </a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="/admin/user/changePwd.html">
+                                    <a href="/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
                                         修改密码
                                     </a>
                                 </li>
@@ -102,20 +102,14 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/admin/lst">
+                    <a href="/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/admin/add">
+                    <a href="/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/nisashop/admin.php/admin/edit">
-                        <span class="menu-text">修改管理员</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -129,8 +123,14 @@
             </a>
             <ul class="submenu">
                 <li>
+                    <a href="/admin.php/cate/catelist">
+                        <span class="menu-text">商品分类列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
                     <a href="#">
-                        <span class="menu-text">商品分类</span>
+                        <span class="menu-text">商品分类添加</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -176,9 +176,9 @@
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
                       <li>
-                        <a href="/nisashop/admin.php/Index/index">系统</a>
+                        <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li><a href="/nisashop/admin.php/Admin/lst">管理员管理</a></li>
+                      <li><a href="/admin.php/Admin/lst">管理员管理</a></li>
                       <li class="active">新增管理员</li>
                     </ul>
                 </div>
@@ -195,7 +195,7 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/Admin/add" method="post">
+                    <form class="form-horizontal" role="form" action="/admin.php/admin/add" method="post">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">用户名</label>
                             <div class="col-sm-6">

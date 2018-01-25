@@ -123,7 +123,7 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="#">
+                    <a href="/admin.php/cate/catelist">
                         <span class="menu-text">商品分类列表</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -178,8 +178,8 @@
                       <li>
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li class=""><a href="#">管理员管理</a></li>
-                      <li class="active">管理员列表</li>
+                      <li class=""><a href="#">商品管理</a></li>
+                      <li class="active">商品分类列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -187,7 +187,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Admin/add'"> <i class="fa fa-plus"></i> Add </button>
+                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Cate/add'"> <i class="fa fa-plus"></i> Add </button>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -196,20 +196,20 @@
                                     <table class="table table-bordered table-hover">
                                     <thead class="">
                                          <tr>
-                                            <th class="text-center">ID</th>
-                                            <th class="text-center">用户名称</th>
+                                            <th class="text-center" style="width: 15%">商品分类ID</th>
+                                            <th align="left">商品分类名称</th>
                                             <th class="text-center">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                     <?php if(is_array($adminers)): $i = 0; $__LIST__ = $adminers;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["username"]); ?></td>
+                                            <td align="center" style="width: 15%"></td>
+                                            <td align="left"></td>
                                             <td align="center">
-                                                <a href="/admin.php/Admin/edit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <a href="/admin.php/Cate/edit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Admin/delt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Cate/delt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

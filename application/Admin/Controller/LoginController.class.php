@@ -11,7 +11,6 @@ class LoginController extends Controller {
                     $this->success("登录成功,跳转中...！",U('Index/index'));
                 }else{
                     $this->error("登录失败！");
-
                 }
             }else{
 

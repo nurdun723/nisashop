@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html><head>
 	    <meta charset="utf-8">
-    <title>童老师ThinkPHP交流群：484519446</title>
+    <title>nisa商城</title>
 
     <meta name="description" content="Dashboard">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,19 +48,19 @@
                                     <img src="http://localhost/nisashop./application/Admin/Public/img/adam-jansen.jpg">
                                 </div>
                                 <section>
-                                    <h2><span class="profile"><span>admin</span></span></h2>
+                                    <h2><span class="profile"><span><?php echo (session('username')); ?></span></span></h2>
                                 </section>
                             </a>
                             <!--Login Area Dropdown-->
                             <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
                                 <li class="username"><a>David Stevenson</a></li>
                                 <li class="dropdown-footer">
-                                    <a href="/admin/user/logout.html">
+                                    <a href="/admin.php/Admin/logout">
                                         退出登录
                                     </a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="/admin/user/changePwd.html">
+                                    <a href="/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
                                         修改密码
                                     </a>
                                 </li>
@@ -102,20 +102,14 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/admin/lst">
+                    <a href="/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/admin/add">
+                    <a href="/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/nisashop/admin.php/admin/edit">
-                        <span class="menu-text">修改管理员</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>

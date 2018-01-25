@@ -44,7 +44,7 @@ class AdminController extends CommonController {
        if(IS_POST){
             if($admin->create()){
                 if(I('password')){
-                    $admin->password=I('password');
+                    $admin->password=md5(I('password'));
                 }else{
                     $admin->password=$user['password'];
                 }
@@ -68,6 +68,16 @@ class AdminController extends CommonController {
             $this->success("删除管理员成功",U('lst'));
         }else{
             $this->error("删除管理员失败!");
+        }
+    }
+
+    //退出后台
+    public function logout(){
+        $out=session(null);
+        if(!$out){
+            $this->success("退出中....",U("Login/index"));
+        }else{
+            $this->error("退出后台失败");
         }
     }
 }
