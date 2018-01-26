@@ -21,7 +21,7 @@
 </head>
 <body>
 	<!-- 头部 -->
-    <div class="navbar">
+        <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -83,7 +83,7 @@
 	<div class="main-container container-fluid">
 		<div class="page-container">
 			<!-- Page Sidebar -->
-            <div class="page-sidebar" id="sidebar">
+               <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -178,8 +178,8 @@
                       <li>
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li class=""><a href="#">商品管理</a></li>
-                      <li class="active">商品分类列表</li>
+                      <li><a href="/admin.php/Cate/lst">商品管理</a></li>
+                      <li class="active">新增商品分类</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -187,58 +187,50 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Cate/cateadd'"> <i class="fa fa-plus"></i> Add </button>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12 col-xs-12">
-                            <div class="widget">
-                                <div class="widget-body">
-                                <div class="flip-scroll">
-                                    <table class="table table-bordered table-hover">
-                                    <thead class="">
-                                         <tr>
-                                            <th class="text-center" style="width: 15%">商品分类ID</th>
-                                            <th align="left">商品分类名称</th>
-                                            <th class="text-center">操作</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    <?php if(is_array($adminers)): $i = 0; $__LIST__ = $adminers;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" style="width: 15%"></td>
-                                            <td align="left"></td>
-                                            <td align="center">
-                                                <a href="/admin.php/Cate/edit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
-                                                    <i class="fa fa-edit"></i> 编辑
-                                                </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Cate/delt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
-                                                    <i class="fa fa-trash-o"></i> 删除
-                                                </a>
-                                            </td>
-                                          </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </tbody>
-                                    </table>
-                                    <div style="height:40px;">
-                                        <ul class="pagination" style="float:right; margin:10px 0 0 0; ">
-                                                <li class="active" style="margin: 10px 0 ;"><?php echo ($page); ?></li>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">新增商品分类</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="/admin.php/Cate/cateadd" method="post">
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label no-padding-right">分类名称</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" id="username" placeholder="请输入用户名"  name="catename" type="text">
+                            </div>
+                            <!--<p class="help-block col-sm-4 red">* 必填</p>-->
+                        </div>
 
-
-                                            <!--<li class="prev disabled"><a href="#">上一页</a></li>
-                                            <li class="active"><a href="#">1</a></li>-->
-                                            <!--<li><a href="#"><?php echo ($page); ?></a></li>-->
-                                            <!--<li class="next"><a href="#">下一页</a></li>-->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                </div>
-                                </div>
+                        <div class="form-group">
+                            <label for="group_id" class="col-sm-2 control-label no-padding-right">上级分类</label>
+                            <div class="col-sm-6">
+                                <select name='pid'>
+                                    <option value='0'>顶级分类</option>
+                                    <?php if(is_array($catagoryes)): $i = 0; $__LIST__ = $catagoryes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><option value="<?php echo ($value["cateid"]); ?>"><?php echo ($value["catename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </select>
+                            </div>
+                            <!--<p class="help-block col-sm-4 red">* 必填</p>-->
+                        </div>  
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">保存信息</button>
                             </div>
                         </div>
-                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                 </div>
                 <!-- /Page Body -->
             </div>
             <!-- /Page Content -->
-		</div>
+		</div>	
 	</div>
 
 	    <!--Basic Scripts-->

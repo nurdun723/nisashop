@@ -123,8 +123,14 @@
             </a>
             <ul class="submenu">
                 <li>
+                    <a href="/admin.php/cate/catelist">
+                        <span class="menu-text">商品分类列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
                     <a href="#">
-                        <span class="menu-text">商品分类</span>
+                        <span class="menu-text">商品分类添加</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
