@@ -1,0 +1,1900 @@
+[ 2018-01-28T08:57:10+08:00 ] ::1 /nisashop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:57:13+08:00 ] ::1 /nisashop/admin.php/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T08:57:19+08:00 ] ::1 /nisashop/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_admin` [ RunTime:0.032001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:57:19+08:00 ] ::1 /nisashop/admin.php/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-28T08:57:30+08:00 ] ::1 /nisashop/admin.php/Login/verify/0.35507887386455206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T08:57:31+08:00 ] ::1 /nisashop/admin.php/Login/verify/0.746089543538341
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:57:34+08:00 ] ::1 /nisashop/admin.php/Login/verify/0.3748663727042001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:57:39+08:00 ] ::1 /nisashop/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_admin` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `sp_admin` WHERE ( username='nurdun' and password=md5('123456') ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-28T08:57:40+08:00 ] ::1 /nisashop/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T08:57:46+08:00 ] ::1 /nisashop/admin.php/cate/catelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.094005s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:57:53+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: catagoryes D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:58:45+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:58:52+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-01-28T08:59:43+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+
+[ 2018-01-28T09:01:25+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-28T09:02:14+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:02:30+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:11:26+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T09:12:40+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:18:04+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:24:53+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T09:24:55+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T09:36:31+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:37:02+08:00 ] ::1 /nisashop/admin.php/Cate/catelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-28T09:37:05+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+NOTIC: [8] Undefined index: pid eq Array D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:39:13+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:41:47+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T09:44:15+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:44:26+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:45:49+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:46:16+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T09:47:32+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-28T09:47:38+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\8cfc46ea8e12f2bd9b6275a021d0b8d6.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:48:29+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T09:48:37+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T11:47:59+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:48:03+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.024001s ]
+ERR: Think\Model:cate方法不存在！
+
+[ 2018-01-28T11:48:27+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.024001s ]
+SQL: UPDATE `sp_category` SET `catename`='休闲裤子',`pid`=4 WHERE ( `cateid` = 6 ) [ RunTime:0.103006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:48:29+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:48:33+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:48:46+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.022001s ]
+SQL: UPDATE `sp_category` SET `catename`='休闲裤子',`pid`=3 WHERE ( `cateid` = 6 ) [ RunTime:0.020002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T11:48:49+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:48:54+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.026001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:49:15+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.024001s ]
+SQL: UPDATE `sp_category` SET `catename`='普通裤子',`pid`=4 WHERE ( `cateid` = 6 ) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:49:18+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021002s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:49:47+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:49:51+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.023002s ]
+
+[ 2018-01-28T11:49:57+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-28T11:50:18+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.023001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:50:23+08:00 ] ::1 /nisashop/admin.php/Cate/cateedit/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `cateid` = 6 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:53:09+08:00 ] ::1 /nisashop/admin.php/Cate/catelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T11:53:11+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:53:32+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `catename` = '毛衣' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T11:53:36+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:54:21+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `catename` = '电器' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `sp_category` (`catename`,`pid`) VALUES ('电器',0) [ RunTime:0.091005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:54:23+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021002s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:54:28+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:54:39+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.030001s ]
+SQL: SELECT * FROM `sp_category` WHERE ( `catename` = '电脑' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: INSERT INTO `sp_category` (`catename`,`pid`) VALUES ('电脑',7) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T11:54:41+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T11:54:48+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T12:15:35+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-28T12:15:36+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: _post D:\phpStudy\WWW\nisashop\application\Admin\Controller\CateController.class.php 第 53 行.
+
+[ 2018-01-28T12:15:59+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:16:24+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:28:09+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.000000s ]
+
+[ 2018-01-28T12:29:50+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.002000s ]
+
+[ 2018-01-28T12:30:45+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:30:59+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:31:55+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:32:02+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:32:14+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.000000s ]
+
+[ 2018-01-28T12:34:27+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.001000s ]
+SQL: DELETE FROM `sp_category` WHERE ( `cateid` IN ('7','8') ) [ RunTime:0.099006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:34:29+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:34:37+08:00 ] ::1 /nisashop/admin.php/Cate/catedelt/cateid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.000000s ]
+SQL: DELETE FROM `sp_category` WHERE ( `cateid` = 6 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:34:39+08:00 ] ::1 /nisashop/admin.php/Cate/catelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:36:04+08:00 ] ::1 /nisashop/admin.php/cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:36:13+08:00 ] ::1 /nisashop/admin.php/cate/catelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:36:20+08:00 ] ::1 /nisashop/admin.php/Cate/cateadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:36:24+08:00 ] ::1 /nisashop/admin.php/Cate/catelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `sp_category` ORDER BY cateid  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-28T12:40:05+08:00 ] ::1 /nisashop/admin.php/Cate/catelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `sp_category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 221 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nisashop\application\Runtime\Cache\Admin\3f2278b169cb571789958795c7178e06.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

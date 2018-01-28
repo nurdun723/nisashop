@@ -195,11 +195,12 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/Cate/cateadd" method="post">
+                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/Cate/cateedit/cateid/6" method="post">
+                        <input type="hidden" value="<?php echo ($cate["cateid"]); ?>" name="cateid">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">分类名称</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="username" placeholder="请输入用户名"  name="catename" type="text">
+                                <input class="form-control" id="username" placeholder="请输入用户名"  name="catename" type="text" value="<?php echo ($cate["catename"]); ?>">
                             </div>
                             <!--<p class="help-block col-sm-4 red">* 必填</p>-->
                         </div>
@@ -209,7 +210,9 @@
                             <div class="col-sm-6">
                                 <select name='pid'>
                                     <option value='0'>顶级分类</option>
-                                    <?php if(is_array($categoryes)): $i = 0; $__LIST__ = $categoryes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><option value="<?php echo ($value["cateid"]); ?>"><?php echo (str_repeat("&nbsp;&nbsp;",$value['lavel']*3)); echo ($value["catename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    <?php if(is_array($categoryes)): $i = 0; $__LIST__ = $categoryes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i; if($cate['pid'] == $value['cateid']): ?><option selected value="<?php echo ($value["cateid"]); ?>"><?php echo (str_repeat("&nbsp;&nbsp;",$value['lavel']*3)); echo ($value["catename"]); ?></option>
+                                        <?php else: ?>
+                                            <option value="<?php echo ($value["cateid"]); ?>"> <?php echo (str_repeat("&nbsp;&nbsp;",$value['lavel']*3)); echo ($value["catename"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                 </select>
                             </div>
                             <!--<p class="help-block col-sm-4 red">* 必填</p>-->

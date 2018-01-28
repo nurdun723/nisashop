@@ -55,12 +55,12 @@
                             <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
                                 <li class="username"><a>David Stevenson</a></li>
                                 <li class="dropdown-footer">
-                                    <a href="/admin.php/Admin/logout">
+                                    <a href="/nisashop/admin.php/Admin/logout">
                                         退出登录
                                     </a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
+                                    <a href="/nisashop/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
                                         修改密码
                                     </a>
                                 </li>
@@ -102,13 +102,13 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/admin.php/admin/lst">
+                    <a href="/nisashop/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/admin/add">
+                    <a href="/nisashop/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -123,13 +123,13 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/admin.php/cate/catelist">
+                    <a href="/nisashop/admin.php/cate/catelist">
                         <span class="menu-text">商品分类列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/nisashop/admin.php/cate/cateadd">
                         <span class="menu-text">商品分类添加</span>
                         <i class="menu-expand"></i>
                     </a>

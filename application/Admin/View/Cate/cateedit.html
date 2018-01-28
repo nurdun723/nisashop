@@ -55,10 +55,11 @@
             <div class="widget-body">
                 <div id="horizontal-form">
                     <form class="form-horizontal" role="form" action="__SELF__" method="post">
+                        <input type="hidden" value="{$cate.cateid}" name="cateid">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">分类名称</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="username" placeholder="请输入用户名"  name="catename" type="text">
+                                <input class="form-control" id="username" placeholder="请输入用户名"  name="catename" type="text" value="{$cate.catename}">
                             </div>
                             <!--<p class="help-block col-sm-4 red">* 必填</p>-->
                         </div>
@@ -69,7 +70,11 @@
                                 <select name='pid'>
                                     <option value='0'>顶级分类</option>
                                     <volist name='categoryes' id='value'>
-                                        <option value="{$value.cateid}">{$value['lavel']*3|str_repeat="&nbsp;&nbsp;",###}{$value.catename}</option>
+                                        <if condition="$cate['pid'] eq $value['cateid']">
+                                            <option selected value="{$value.cateid}">{$value['lavel']*3|str_repeat="&nbsp;&nbsp;",###}{$value.catename}</option>
+                                        <else />
+                                            <option value="{$value.cateid}"> {$value['lavel']*3|str_repeat="&nbsp;&nbsp;",###}{$value.catename}</option>
+                                        </if>
                                     </volist>
                                 </select>
                             </div>

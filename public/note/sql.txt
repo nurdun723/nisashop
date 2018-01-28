@@ -3,4 +3,4 @@ create table sp_category(
      cateid int unsigned primary key auto_increment,
      catename varchar(50) not null,
      pid int default 0 
-);
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
