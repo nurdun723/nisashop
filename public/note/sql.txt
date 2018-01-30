@@ -33,24 +33,83 @@ create table sp_brand(
 
 商品表：
 create table sp_goods(
-   id
-   goods_name
-   goods_code
-   original 
-   sm_thumb
-   mid_thumb
-   max_thumb
-   market_price
-   shop_price
-   onsale
-   cate_id
-   typeid
-   brand_id
-   goods_des
-   goods_weight
-   weight_unit
-   
+   id                      int              unsigned   primary key  auto_increment ,
+   goods_name              varchar(50)      not null,
+   goods_code              char(16)         unique   not null,
+   original                varchar(100),
+   sm_thumb                varchar(100),
+   mid_thumb               varchar(100),
+   max_thumb               varchar(100),
+   market_price            decimal(10,2),
+   shop_price              decimal(10,2),
+   onsale                  enum('1','0')    default  1,
+   cate_id                 int,
+   typeid                  int              default  0,
+   brand_id                int              default  0,
+   goods_des               text,
+   goods_weight            decimal(10,2),
+   weight_unit             enum('kg','g'),
+   foreign key (cate_id) references sp_category(cateid),
+   foreign key (typeid)   references sp_type(type_id),
+   foreign key (brand_id) references sp_brand(id),
+   index(goods_code)
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+会员等级表
+create table sp_vip_level(
+   id                     int              unsigned  primary key auto_increment,
+   level_name             varchar(30)      not null,
+   level_min              int              unsigned,
+   level_max              int              unsigned,
+   rate                   tinyint          unique
+);ENGINE=InnoDB default CHARSET=utf8;
+
+会员价格表
+create table sp_vip_price(
+   id                     int              unsigned  primary key auto_increment,
+   price                  decimal(10,2)    ,
+   level_id               int              unsigned,
+   goods_id               int              unsigned,
+   foreign key (level_id) references sp_vip_level(id),
+   foreign key (goods_id) references sp_goods(id)  
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+商品属性价格表
+create table sp_attr_price(
+   id                    int              unsigned  primary key auto_increment,
+   goods_id              int              unsigned,
+   attr_id               int              unsigned,
+   attr_value            varchar(150),
+   price                 decimal(10,2)    default 0.00,
+   foreign key (goods_id) references sp_goods(id),
+   foreign key (attr_id)  references sp_attr(id)
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+商品图片表
+create table sp_goods_pic(
+  id                     int             unsigned   primary key auto_increment,
+  goods_id               int             unsigned,
+  original               varchar(100) ,
+  max_thumb              varchar(100),
+  sm_thumb               varchar(100),
+  foreign key (goods_id) references sp_goods(id)
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+商品库存表
+create table sp_product(
+  id                     int             unsigned   primary key auto_increment,
+  goods_id               int             unsigned,
+  goods_number           int             unsigned,
+  goods_attr             varchar(150),
+  foreign key (goods_id) references sp_goods(id)
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+
+
 
 
 
