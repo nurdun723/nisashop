@@ -1,6 +1,59 @@
-商品分类表：sp_ category
+商品栏目表：sp_ category
 create table sp_category(
      cateid int unsigned primary key auto_increment,
      catename varchar(50) not null,
      pid int default 0 
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+商品分类表：
+create table sp_type(
+      id    int unsigned auto_increment primary key,
+      typename  varchar(50) not null
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+商品属性：
+create table sp_attr(
+    id  int  unsigned primary key auto_increment ,
+    attr_name  varchar (30) ,
+    attr_type  enum('唯一','单选') ,
+    attr_value text,
+    type_id int unsigned,
+    foreign key(type_id) references  sp_type(id),
+    index (type_id)
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+商品品牌：
+create table sp_brand(
+    id  int unsigned primary key auto_increment,
+    brand_name  varchar(30) ,
+    brand_logo  varchar(100),
+    brand_url  varchar(100),
+    index(brand_name)
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+商品表：
+create table sp_goods(
+   id
+   goods_name
+   goods_code
+   original 
+   sm_thumb
+   mid_thumb
+   max_thumb
+   market_price
+   shop_price
+   onsale
+   cate_id
+   typeid
+   brand_id
+   goods_des
+   goods_weight
+   weight_unit
+   
+);ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+
+
