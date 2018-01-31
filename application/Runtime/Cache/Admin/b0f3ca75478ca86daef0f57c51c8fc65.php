@@ -190,8 +190,8 @@
                       <li>
                         <a href="/nisashop/admin.php/Index/index">系统</a>
                       </li>
-                      <li><a href="/nisashop/admin.php/Cate/catelist">商品管理</a></li>
-                      <li class="active">新增商品分类</li>
+                      <li><a href="/nisashop/admin.php/Brand/lst">商品中心</a></li>
+                      <li class="active">品牌新增</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -203,29 +203,30 @@
     <div class="col-lg-12 col-sm-12 col-xs-12">
         <div class="widget">
             <div class="widget-header bordered-bottom bordered-blue">
-                <span class="widget-caption">新增商品分类</span>
+                <span class="widget-caption">新增管理员</span>
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/cate/cateadd" method="post">
+                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/Brand/brandadd" method="post" >
                         <div class="form-group">
-                            <label for="username" class="col-sm-2 control-label no-padding-right">分类名称</label>
+                            <label for="brand_name" class="col-sm-2 control-label no-padding-right">品牌名称</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="username" placeholder="请输入用户名"  name="catename" type="text">
+                                <input class="form-control" id="brand_name" placeholder="请输入品牌名称"  name="brand_name" type="text">
                             </div>
-                            <!--<p class="help-block col-sm-4 red">* 必填</p>-->
+                            <p class="help-block col-sm-4 red">* 必填</p>
                         </div>
-
                         <div class="form-group">
-                            <label for="group_id" class="col-sm-2 control-label no-padding-right">上级分类</label>
+                            <label for="brand_logo" class="col-sm-2 control-label no-padding-right">品牌图片</label>
                             <div class="col-sm-6">
-                                <select name='pid'>
-                                    <option value='0'>顶级分类</option>
-                                    <?php if(is_array($categoryes)): $i = 0; $__LIST__ = $categoryes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><option value="<?php echo ($value["cateid"]); ?>"><?php echo (str_repeat("&nbsp;&nbsp;",$value['lavel']*3)); echo ($value["catename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
-                                </select>
+                                <input  id="brand_logo"  name="brand_logo" type="file">
                             </div>
-                            <!--<p class="help-block col-sm-4 red">* 必填</p>-->
-                        </div>  
+                        </div>
+                        <div class="form-group">
+                            <label for="brand_url" class="col-sm-2 control-label no-padding-right">品牌网址</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" id="brand_url"  name="brand_url" type="text">
+                            </div>
+                        </div>
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-default">保存信息</button>
