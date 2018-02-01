@@ -19,7 +19,7 @@
 
 <body>
     <div class="login-container animated fadeInDown">
-        <form action="/nisashop/admin.php/Login/index.html" method="post">
+        <form action="/admin.php/Login/index.html" method="post">
             <div class="loginbox bg-white">
                 <div class="loginbox-title">后台登录</div>
                 <div class="loginbox-textbox">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="loginbox-textbox">
                     <input  class="form-control" style="width: 120px;height:50px;float: left" placeholder="输入用户名" name="verify" type="text">
-                    <img src="/nisashop/admin.php/Login/verify" style="height: 50px;border: 0;width: 100px;cursor: pointer" onclick="this.src='/nisashop/admin.php/Login/verify/'+Math.random()">
+                    <img src="/admin.php/Login/verify" style="height: 50px;border: 0;width: 100px;cursor: pointer" onclick="this.src='/admin.php/Login/verify/'+Math.random()">
                 </div>
                 <div class="loginbox-submit">
                     <input class="btn btn-primary btn-block" value="登录" type="submit">

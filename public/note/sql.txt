@@ -43,20 +43,17 @@ create table sp_goods(
    market_price            decimal(10,2),
    shop_price              decimal(10,2),
    onsale                  enum('1','0')    default  1,
-   cate_id                 int,
-   typeid                  int              default  0,
-   brand_id                int              default  0,
+   cate_id                 int    unsigned,
+   typeid                  int    unsigned              default  0,
+   brand_id                int     unsigned             default  0,
    goods_des               text,
    goods_weight            decimal(10,2),
    weight_unit             enum('kg','g'),
-   foreign key (cate_id) references sp_category(cateid),
-   foreign key (typeid)   references sp_type(type_id),
-   foreign key (brand_id) references sp_brand(id),
    index(goods_code)
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 会员等级表
-create table sp_vip_level(
+create table sp_viplevel(
    id                     int              unsigned  primary key auto_increment,
    level_name             varchar(30)      not null,
    level_min              int              unsigned,
