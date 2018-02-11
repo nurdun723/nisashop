@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html><head>
 	    <meta charset="utf-8">
-    <title>童老师ThinkPHP交流群：484519446</title>
+    <title>nisa商城</title>
 
     <meta name="description" content="Dashboard">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -113,24 +113,48 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="/admin.php/admin/edit">
-                        <span class="menu-text">修改管理员</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
             </ul>
         </li>
         <li>
             <a href="#" class="menu-dropdown">
                <i class="menu-icon fa fa-gear"></i>
-                    <span class="menu-text">商品管理</span>
+                    <span class="menu-text">商品中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="#">
-                        <span class="menu-text">商品分类</span>
+                    <a href="/admin.php/cate/catelist">
+                        <span class="menu-text">商品分类列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/cate/cateadd">
+                        <span class="menu-text">商品分类添加</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/brand/brandlist">
+                        <span class="menu-text">品牌列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/brand/brandadd">
+                        <span class="menu-text">品牌新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>

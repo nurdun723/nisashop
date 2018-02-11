@@ -55,12 +55,12 @@
                             <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
                                 <li class="username"><a>David Stevenson</a></li>
                                 <li class="dropdown-footer">
-                                    <a href="/nisashop/admin.php/Admin/logout">
+                                    <a href="/admin.php/Admin/logout">
                                         退出登录
                                     </a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="/nisashop/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
+                                    <a href="/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
                                         修改密码
                                     </a>
                                 </li>
@@ -102,13 +102,13 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/admin/lst">
+                    <a href="/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/admin/add">
+                    <a href="/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -123,26 +123,38 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/cate/catelist">
+                    <a href="/admin.php/cate/catelist">
                         <span class="menu-text">商品分类列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/cate/cateadd">
+                    <a href="/admin.php/cate/cateadd">
                         <span class="menu-text">商品分类添加</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/brand/brandlist">
+                    <a href="/admin.php/brand/brandlist">
                         <span class="menu-text">品牌列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/brand/brandadd">
+                    <a href="/admin.php/brand/brandadd">
                         <span class="menu-text">品牌新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -188,7 +200,7 @@
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
                       <li>
-                        <a href="/nisashop/admin.php/Index/index">系统</a>
+                        <a href="/admin.php/Index/index">系统</a>
                       </li>
                       <li class=""><a href="#">商品管理</a></li>
                       <li class="active">商品分类列表</li>
@@ -199,7 +211,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/nisashop/admin.php/Cate/cateadd'"> <i class="fa fa-plus"></i> Add </button>
+                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Cate/cateadd'"> <i class="fa fa-plus"></i> Add </button>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -218,10 +230,10 @@
                                             <td align="center" style="width: 15%"><?php echo ($value["cateid"]); ?></td>
                                             <td align="left"><?php echo (str_repeat('&nbsp;&nbsp;',$value['lavel']*3)); echo ($value["catename"]); ?></td>
                                             <td align="center">
-                                                <a href="/nisashop/admin.php/Cate/cateedit/cateid/<?php echo ($value["cateid"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <a href="/admin.php/Cate/cateedit/cateid/<?php echo ($value["cateid"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/nisashop/admin.php/Cate/catedelt/cateid/<?php echo ($value["cateid"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Cate/catedelt/cateid/<?php echo ($value["cateid"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

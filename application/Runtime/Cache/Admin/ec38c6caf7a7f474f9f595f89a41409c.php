@@ -146,6 +146,18 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
             </ul>
         </li>
         <li>

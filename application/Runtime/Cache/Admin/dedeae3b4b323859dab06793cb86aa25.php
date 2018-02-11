@@ -146,6 +146,18 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
             </ul>
         </li>
         <li>
@@ -216,16 +228,20 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    <?php if(is_array($adminers)): $i = 0; $__LIST__ = $adminers;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" width="10%"></td>
-                                            <td align="center"></td>
-                                            <td align="center"></td>
-                                            <td align="center"></td>
+                                    <?php if(is_array($brandinfo)): $i = 0; $__LIST__ = $brandinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
+                                            <td align="center" width="10%"><?php echo ($value["id"]); ?></td>
+                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
                                             <td align="center">
-                                                <a href="/admin.php/Brand/edit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <?php if($value["brand_logo"] == ''): ?>暂时无图片
+                                                 <?php else: ?>
+                                                    <img src="/<?php echo ($value["brand_logo"]); ?>" height="40" width="80"/><?php endif; ?>
+                                            </td>
+                                            <td align="center"><a href="<?php echo ($value["brand_url"]); ?>" target="_blank"><?php echo ($value["brand_url"]); ?></a></td>
+                                            <td align="center">
+                                                <a href="/admin.php/Brand/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Brand/delt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Brand/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

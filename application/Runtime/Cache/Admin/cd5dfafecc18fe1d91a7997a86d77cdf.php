@@ -118,19 +118,43 @@
         <li>
             <a href="#" class="menu-dropdown">
                <i class="menu-icon fa fa-gear"></i>
-                    <span class="menu-text">商品管理</span>
+                    <span class="menu-text">商品中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="#">
+                    <a href="/admin.php/cate/catelist">
                         <span class="menu-text">商品分类列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/admin.php/cate/cateadd">
                         <span class="menu-text">商品分类添加</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/brand/brandlist">
+                        <span class="menu-text">品牌列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/brand/brandadd">
+                        <span class="menu-text">品牌新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
