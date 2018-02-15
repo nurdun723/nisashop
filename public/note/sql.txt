@@ -33,7 +33,7 @@ create table sp_brand(
 
 商品表：
 create table sp_goods(
-   id                      int              unsigned   primary key  auto_increment ,
+   id  int unsigned primary key auto_increment,
    goods_name              varchar(50)      not null,
    goods_code              char(16)         unique   not null,
    original                varchar(100),
@@ -49,7 +49,6 @@ create table sp_goods(
    goods_des               text,
    goods_weight            decimal(10,2),
    weight_unit             enum('kg','g'),
-   index(goods_code)
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 会员等级表
@@ -62,13 +61,11 @@ create table sp_viplevel(
 );ENGINE=InnoDB default CHARSET=utf8;
 
 会员价格表
-create table sp_vip_price(
+create table sp_vipprice(
    id                     int              unsigned  primary key auto_increment,
    price                  decimal(10,2)    ,
    level_id               int              unsigned,
-   goods_id               int              unsigned,
-   foreign key (level_id) references sp_vip_level(id),
-   foreign key (goods_id) references sp_goods(id)  
+   goods_id               int              unsigned
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -84,13 +81,12 @@ create table sp_attr_price(
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 商品图片表
-create table sp_goods_pic(
+create table sp_goodspic(
   id                     int             unsigned   primary key auto_increment,
   goods_id               int             unsigned,
   original               varchar(100) ,
   max_thumb              varchar(100),
-  sm_thumb               varchar(100),
-  foreign key (goods_id) references sp_goods(id)
+  sm_thumb               varchar(100)
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 商品库存表

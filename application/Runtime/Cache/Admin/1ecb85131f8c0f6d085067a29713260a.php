@@ -221,7 +221,7 @@
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
                       <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">品牌列表</li>
+                      <li class="active">商品类型列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -229,7 +229,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Brand/brandadd'"> <i class="fa fa-plus"></i> Add </button>
+                    <button type="button" tooltip="添加商品类型" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Type/typeadd'"> <i class="fa fa-plus"></i> Add </button>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -238,28 +238,20 @@
                                     <table class="table table-bordered table-hover">
                                     <thead class="">
                                          <tr>
-                                            <th class="text-center" width="10%">品牌ID</th>
-                                            <th class="text-center">品牌名称</th>
-                                             <th class="text-center">品牌logo</th>
-                                             <th class="text-center">品牌网址</th>
+                                            <th class="text-center" width="10%">商品类型ID</th>
+                                            <th class="text-center">商品类型名称</th>
                                             <th class="text-center">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    <?php if(is_array($brandinfo)): $i = 0; $__LIST__ = $brandinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
+                                    <?php if(is_array($typeinfo)): $i = 0; $__LIST__ = $typeinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
                                             <td align="center" width="10%"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
+                                            <td align="center"><?php echo ($value["typename"]); ?></td>
                                             <td align="center">
-                                                <?php if($value["brand_logo"] == ''): ?>暂时无图片
-                                                 <?php else: ?>
-                                                    <img src="/<?php echo ($value["brand_logo"]); ?>" height="40" width="80"/><?php endif; ?>
-                                            </td>
-                                            <td align="center"><a href="<?php echo ($value["brand_url"]); ?>" target="_blank"><?php echo ($value["brand_url"]); ?></a></td>
-                                            <td align="center">
-                                                <a href="/admin.php/Brand/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <a href="/admin.php/Type/typeedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Brand/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Type/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

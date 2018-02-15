@@ -55,12 +55,12 @@
                             <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
                                 <li class="username"><a>David Stevenson</a></li>
                                 <li class="dropdown-footer">
-                                    <a href="/nisashop/admin.php/Admin/logout">
+                                    <a href="/admin.php/Admin/logout">
                                         退出登录
                                     </a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="/nisashop/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
+                                    <a href="/admin.php/Admin/edit/id/<?php echo (session('uid')); ?>">
                                         修改密码
                                     </a>
                                 </li>
@@ -102,13 +102,13 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/admin/lst">
+                    <a href="/admin.php/admin/lst">
                         <span class="menu-text">管理员列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/admin/add">
+                    <a href="/admin.php/admin/add">
                         <span class="menu-text">新增管理员</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -123,26 +123,38 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="/nisashop/admin.php/cate/catelist">
+                    <a href="/admin.php/cate/catelist">
                         <span class="menu-text">商品分类列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/cate/cateadd">
+                    <a href="/admin.php/cate/cateadd">
                         <span class="menu-text">商品分类添加</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/brand/brandlist">
+                    <a href="/admin.php/brand/brandlist">
                         <span class="menu-text">品牌列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="/nisashop/admin.php/brand/brandadd">
+                    <a href="/admin.php/brand/brandadd">
                         <span class="menu-text">品牌新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -151,13 +163,19 @@
         <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon fa fa-gear"></i>
-                <span class="menu-text">文章管理</span>
+                <span class="menu-text">会员中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
                     <a href="#">
-                        <span class="menu-text">文章列表</span>
+                        <span class="menu-text">会员管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/Viplevel/levellist">
+                        <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -188,9 +206,9 @@
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
                       <li>
-                        <a href="/nisashop/admin.php/Index/index">系统</a>
+                        <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li><a href="/nisashop/admin.php/Cate/catelist">商品管理</a></li>
+                      <li><a href="/admin.php/Cate/catelist">商品管理</a></li>
                       <li class="active">新增商品分类</li>
                     </ul>
                 </div>
@@ -207,7 +225,7 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/nisashop/admin.php/cate/cateadd" method="post">
+                    <form class="form-horizontal" role="form" action="/admin.php/cate/cateadd" method="post">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">分类名称</label>
                             <div class="col-sm-6">

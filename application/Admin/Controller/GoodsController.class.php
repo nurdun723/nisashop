@@ -6,14 +6,16 @@ class GoodsController extends CommonController {
 
     //品牌列表
     public function goodslist(){
-        // $count=$brand->count();//查找品牌表的总记录数
-        // $Page=new \Think\Page($count,2);//实例化分页类，传递总记录数和每页显示的记录数
-        // $Page->setConfig("prev","上一页");//设置分页类的属性
-        // $Page->setConfig("next","下一页");
-        // $show=$Page->show();//分页显示输出
-        // $brandinfo=$brand->order()->limit($Page->firstRow.','.$Page->listRows)->select();
-        
-        $this->display();
+         $goods=D('GoodsView');
+         $count=$goods->count();//查找品牌表的总记录数
+         $Page=new \Think\Page($count,2);//实例化分页类，传递总记录数和每页显示的记录数
+         $Page->setConfig("prev","上一页");//设置分页类的属性
+         $Page->setConfig("next","下一页");
+         $show=$Page->show();//分页显示输出
+         $goodsinfo=$goods->order()->limit($Page->firstRow.','.$Page->listRows)->select();
+         $this->assign('page',$show);
+         $this->assign('goodsinfo',$goodsinfo);
+         $this->display();
     }
 
     //商品新增
@@ -29,13 +31,15 @@ class GoodsController extends CommonController {
             }else{
                 $this->error($goods->getError());
             }
-            // dump($_POST);
+
             return;
         }
         $categorys=D('category')->catetree();
         $this->assign('categorys',$categorys);
         $brand=D('brand')->select();
-        $this->assign('brands',$brand);        
+        $this->assign('brands',$brand);
+        $leveles=D('viplevel')->select();
+        $this->assign('leveles',$leveles);
         $this->display();
     }
 

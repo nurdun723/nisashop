@@ -21,7 +21,7 @@
 </head>
 <body>
 	<!-- 头部 -->
-    <div class="navbar">
+        <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -83,7 +83,7 @@
 	<div class="main-container container-fluid">
 		<div class="page-container">
 			<!-- Page Sidebar -->
-            <div class="page-sidebar" id="sidebar">
+               <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -158,18 +158,6 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="/admin.php/type/typelist">
-                        <span class="menu-text">商品类型列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/admin.php/type/typeadd">
-                        <span class="menu-text">商品类型新增</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
             </ul>
         </li>
         <li>
@@ -186,7 +174,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/Viplevel/levellist">
+                    <a href="/admin.php/Viplevel/viplist">
                         <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -220,8 +208,8 @@
                       <li>
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">品牌列表</li>
+                      <li><a href="/admin.php/Viplevel/viplist">会员列表</a></li>
+                      <li class="active">新增会员</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -229,66 +217,51 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Brand/brandadd'"> <i class="fa fa-plus"></i> Add </button>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12 col-xs-12">
-                            <div class="widget">
-                                <div class="widget-body">
-                                <div class="flip-scroll">
-                                    <table class="table table-bordered table-hover">
-                                    <thead class="">
-                                         <tr>
-                                            <th class="text-center" width="10%">品牌ID</th>
-                                            <th class="text-center">品牌名称</th>
-                                             <th class="text-center">品牌logo</th>
-                                             <th class="text-center">品牌网址</th>
-                                            <th class="text-center">操作</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    <?php if(is_array($brandinfo)): $i = 0; $__LIST__ = $brandinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" width="10%"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
-                                            <td align="center">
-                                                <?php if($value["brand_logo"] == ''): ?>暂时无图片
-                                                 <?php else: ?>
-                                                    <img src="/<?php echo ($value["brand_logo"]); ?>" height="40" width="80"/><?php endif; ?>
-                                            </td>
-                                            <td align="center"><a href="<?php echo ($value["brand_url"]); ?>" target="_blank"><?php echo ($value["brand_url"]); ?></a></td>
-                                            <td align="center">
-                                                <a href="/admin.php/Brand/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
-                                                    <i class="fa fa-edit"></i> 编辑
-                                                </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Brand/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
-                                                    <i class="fa fa-trash-o"></i> 删除
-                                                </a>
-                                            </td>
-                                          </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </tbody>
-                                    </table>
-                                    <div style="height:40px;">
-                                        <ul class="pagination" style="float:right; margin:10px 0 0 0; ">
-                                                <li class="active" style="margin: 10px 0 ;"><?php echo ($page); ?></li>
-
-
-                                            <!--<li class="prev disabled"><a href="#">上一页</a></li>
-                                            <li class="active"><a href="#">1</a></li>-->
-                                            <!--<li><a href="#"><?php echo ($page); ?></a></li>-->
-                                            <!--<li class="next"><a href="#">下一页</a></li>-->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                </div>
-                                </div>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">新增会员</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="/admin.php/Viplevel/vipadd" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="brand_name" class="col-sm-2 control-label no-padding-right">品牌名称</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" id="brand_name" placeholder="请输入品牌名称"  name="brand_name" type="text">
+                            </div>
+                            <p class="help-block col-sm-4 red">* 必填</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="brand_logo" class="col-sm-2 control-label no-padding-right">品牌图片</label>
+                            <div class="col-sm-6">
+                                <input  id="brand_logo"  name="brand_logo" type="file">
                             </div>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label for="brand_url" class="col-sm-2 control-label no-padding-right">品牌网址</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" id="brand_url"  name="brand_url" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">保存信息</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                 </div>
                 <!-- /Page Body -->
             </div>
             <!-- /Page Content -->
-		</div>
+		</div>	
 	</div>
 
 	    <!--Basic Scripts-->

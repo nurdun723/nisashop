@@ -163,13 +163,19 @@
         <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon fa fa-gear"></i>
-                <span class="menu-text">文章管理</span>
+                <span class="menu-text">会员中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
                     <a href="#">
-                        <span class="menu-text">文章列表</span>
+                        <span class="menu-text">会员管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/Viplevel/levellist">
+                        <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>

@@ -167,13 +167,19 @@
         <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon fa fa-gear"></i>
-                <span class="menu-text">文章管理</span>
+                <span class="menu-text">会员中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
                     <a href="#">
-                        <span class="menu-text">文章列表</span>
+                        <span class="menu-text">会员管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/Viplevel/levellist">
+                        <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -223,7 +229,7 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/admin.php/goods/goodsadd" method="post" enctype="multipart/form-data">
+                    <form class="form-horizontal" role="form" action="/admin.php/Goods/goodsadd" method="post" enctype="multipart/form-data">
                       <!------------------新增商品--------------->
                        <div class="tabbable"> 
                          <ul id="myTab11" class="nav nav-tabs tabs-flat">
@@ -256,6 +262,7 @@
                             <div class="tab-content tabs-flat">
                                 <!--基本信息-->
                                 <div class="tab-pane active" id="home11">
+
                                     <div class="form-group">
                                         <label for="goods_name" class="col-sm-2 control-label no-padding-right">商品名称</label>
                                         <div class="col-sm-6">
@@ -275,7 +282,7 @@
                                         <label for="cate_id" class="col-sm-2 control-label no-padding-right">商品所属分类</label>
                                         <div class="col-sm-6">
                                             <select name="cate_id">
-                                                <option>请选择</option>
+                                                <option value="">请选择</option>
                                                 <?php if(is_array($categorys)): $i = 0; $__LIST__ = $categorys;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><option value="<?php echo ($value["cateid"]); ?>"><?php echo (str_repeat("&nbsp;&nbsp;",$value['lavel']*3)); echo ($value["catename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                                             </select>
                                         </div>
@@ -290,7 +297,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <!--市场价格-->
+
                                     <div class="form-group">
                                         <label for="market_price" class="col-sm-2 control-label no-padding-right">市场价格</label>
                                         <div class="col-sm-6">
@@ -298,7 +305,7 @@
                                         </div>
                                         <p class="help-block col-sm-4 red">* 必填</p>
                                     </div>
-                                        <!--本店价格-->
+
                                     <div class="form-group">
                                         <label for="shop_price" class="col-sm-2 control-label no-padding-right">本店价格</label>
                                         <div class="col-sm-6">
@@ -316,11 +323,10 @@
                                                 <option value="g">g</option>
                                             </select>
                                         </div>
-                                        <p class="help-block col-sm-4 red">* 必填</p>
                                     </div>
                                         <!--是否上架-->
                                     <div class="form-group">
-                                        <label class="col-sm-2 control-label no-padding-right" for="username">是否上架</label>
+                                        <label class="col-sm-2 control-label no-padding-right" for="onsale">是否上架</label>
                                        <div class="col-sm-6">
                                            <div class="checkbox">
                                                 <label>
@@ -329,16 +335,21 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <p class="help-block col-sm-4 red">* 必填</p>
                                     </div>
+
                                 </div>
                                 <!--商品描述-->
                                 <div class="tab-pane" id="profile11" >
-                                    <textarea id="goods_desc" name="goods_desc" style="width:500px;height:500px;"></textarea>
+                                    <textarea id="goods_des" name="goods_des" style="width:500px;height:500px;"></textarea>
                                 </div>
                                 <!--会员价格-->
                                 <div class="tab-pane" id="profile12">
-                                    <p>会员价格</p>
+                                    <?php if(is_array($leveles)): $i = 0; $__LIST__ = $leveles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><div class="form-group">
+                                        <label for="goods_name" class="col-sm-2 control-label no-padding-right"><?php echo ($value["level_name"]); ?></label>
+                                        <div class="col-sm-6">
+                                            <input class="form-control" id=""   name="lev[<?php echo ($value["id"]); ?>]" type="text">
+                                        </div>
+                                    </div><?php endforeach; endif; else: echo "" ;endif; ?>
                                 </div>
                                 <!--商品属性-->
                                 <div class="tab-pane" id="profile13">
@@ -346,7 +357,14 @@
                                 </div>
                                 <!--商品图片-->
                                 <div class="tab-pane" id="profile14">
-                                    <p>商品图片</p>
+                                    <div class="form-group">
+                                        <label for="goods_name" class="col-sm-2 control-label no-padding-right">
+                                            <a id="addimg" href="javascript:;">[+]</a>
+                                        </label>
+                                        <div class="col-sm-6">
+                                            <input type="file"  name="goods_pics[]">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <input type="submit" value="添加商品" style="width:150px;" class="btn btn-darkorange btn-block">
@@ -377,7 +395,14 @@
 
         // <!--实例化编辑器-->
         // <!--建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例-->
-        UE.getEditor('goods_desc',{initialFrameWidth:900,initialFrameHeight:280,});
+        UE.getEditor('goods_des',{initialFrameWidth:900,initialFrameHeight:280,});
+        var str='<div class="form-group"><label for="goods_name" class="col-sm-2 control-label no-padding-right"><a onclick="deltimg(this);" href="javascript:;">[-]</a></label><div class="col-sm-6"><input type="file"  name="goods_pics[]"></div></div>';
+        $("#addimg").click(function (){
+            $("#profile14").append(str);
+        });
+        function deltimg(o) {
+            $(o).parent().parent().remove()
+        }
     </script>
 
 </body></html>

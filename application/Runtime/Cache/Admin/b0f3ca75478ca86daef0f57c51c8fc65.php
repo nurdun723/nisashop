@@ -146,18 +146,36 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
+                <li>
+                    <a href="/admin.php/goods/goodsadd">
+                        <span class="menu-text">商品新增</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/goods/goodslist">
+                        <span class="menu-text">商品列表</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
             </ul>
         </li>
         <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon fa fa-gear"></i>
-                <span class="menu-text">文章管理</span>
+                <span class="menu-text">会员中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
                     <a href="#">
-                        <span class="menu-text">文章列表</span>
+                        <span class="menu-text">会员管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/Viplevel/levellist">
+                        <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -207,7 +225,7 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/admin.php/Brand/brandadd" method="post" enctype="multipart/form-data">
+                    <form class="form-horizontal" role="form" action="/admin.php/brand/brandadd" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="brand_name" class="col-sm-2 control-label no-padding-right">品牌名称</label>
                             <div class="col-sm-6">

@@ -21,7 +21,7 @@
 </head>
 <body>
 	<!-- 头部 -->
-    <div class="navbar">
+        <div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -83,7 +83,7 @@
 	<div class="main-container container-fluid">
 		<div class="page-container">
 			<!-- Page Sidebar -->
-            <div class="page-sidebar" id="sidebar">
+               <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -158,18 +158,6 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="/admin.php/type/typelist">
-                        <span class="menu-text">商品类型列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/admin.php/type/typeadd">
-                        <span class="menu-text">商品类型新增</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
             </ul>
         </li>
         <li>
@@ -220,8 +208,8 @@
                       <li>
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">品牌列表</li>
+                      <li><a href="/admin.php/Viplevel/levellist">等级列表</a></li>
+                      <li class="active">修改等级</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -229,66 +217,61 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Brand/brandadd'"> <i class="fa fa-plus"></i> Add </button>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12 col-xs-12">
-                            <div class="widget">
-                                <div class="widget-body">
-                                <div class="flip-scroll">
-                                    <table class="table table-bordered table-hover">
-                                    <thead class="">
-                                         <tr>
-                                            <th class="text-center" width="10%">品牌ID</th>
-                                            <th class="text-center">品牌名称</th>
-                                             <th class="text-center">品牌logo</th>
-                                             <th class="text-center">品牌网址</th>
-                                            <th class="text-center">操作</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    <?php if(is_array($brandinfo)): $i = 0; $__LIST__ = $brandinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" width="10%"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
-                                            <td align="center">
-                                                <?php if($value["brand_logo"] == ''): ?>暂时无图片
-                                                 <?php else: ?>
-                                                    <img src="/<?php echo ($value["brand_logo"]); ?>" height="40" width="80"/><?php endif; ?>
-                                            </td>
-                                            <td align="center"><a href="<?php echo ($value["brand_url"]); ?>" target="_blank"><?php echo ($value["brand_url"]); ?></a></td>
-                                            <td align="center">
-                                                <a href="/admin.php/Brand/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
-                                                    <i class="fa fa-edit"></i> 编辑
-                                                </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Brand/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
-                                                    <i class="fa fa-trash-o"></i> 删除
-                                                </a>
-                                            </td>
-                                          </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </tbody>
-                                    </table>
-                                    <div style="height:40px;">
-                                        <ul class="pagination" style="float:right; margin:10px 0 0 0; ">
-                                                <li class="active" style="margin: 10px 0 ;"><?php echo ($page); ?></li>
-
-
-                                            <!--<li class="prev disabled"><a href="#">上一页</a></li>
-                                            <li class="active"><a href="#">1</a></li>-->
-                                            <!--<li><a href="#"><?php echo ($page); ?></a></li>-->
-                                            <!--<li class="next"><a href="#">下一页</a></li>-->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                </div>
-                                </div>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">修改会员等级</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="/admin.php/Viplevel/leveledit/id/1" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="id" value="<?php echo ($leveles["id"]); ?>">
+                        <div class="form-group">
+                            <label for="level_name" class="col-sm-2 control-label no-padding-right">等级名称</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" name="level_name" value="<?php echo ($leveles["level_name"]); ?>"    type="text">
                             </div>
                         </div>
-                    </div>
+
+                        <div class="form-group">
+                            <label for="level_min" class="col-sm-2 control-label no-padding-right">积分下限</label>
+                            <div class="col-sm-6">
+                                <input class="form-control"  name="point_min" value="<?php echo ($leveles["point_min"]); ?>" type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="level_max" class="col-sm-2 control-label no-padding-right">积分上限</label>
+                            <div class="col-sm-6">
+                                <input class="form-control"   name="point_max" value="<?php echo ($leveles["point_max"]); ?>" type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="rate" class="col-sm-2 control-label no-padding-right">折扣率</label>
+                            <div class="col-sm-6">
+                                <input class="form-control"  name="rate" value="<?php echo ($leveles["rate"]); ?>" type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">保存修改</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                 </div>
                 <!-- /Page Body -->
             </div>
             <!-- /Page Content -->
-		</div>
+		</div>	
 	</div>
 
 	    <!--Basic Scripts-->

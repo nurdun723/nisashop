@@ -22,10 +22,10 @@ class LoginController extends Controller {
         $this->display();
     }
 
-    //验证码
-    public function verify(){
-        $verify=new \Think\Verify();
-        $verify->length=4;
-        $verify->entry();
-    }
+//    //验证码
+//    public function verify(){
+//        $verify=new \Think\Verify();
+//        $verify->length=4;
+//        $verify->entry();
+//    }
 }

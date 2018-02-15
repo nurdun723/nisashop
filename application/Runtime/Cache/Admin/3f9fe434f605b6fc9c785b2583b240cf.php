@@ -158,18 +158,6 @@
                         <i class="menu-expand"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="/admin.php/type/typelist">
-                        <span class="menu-text">商品类型列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/admin.php/type/typeadd">
-                        <span class="menu-text">商品类型新增</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
             </ul>
         </li>
         <li>
@@ -186,7 +174,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/admin.php/Viplevel/levellist">
+                    <a href="/admin.php/Viplevel/viplist">
                         <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
@@ -220,8 +208,8 @@
                       <li>
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
-                      <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">品牌列表</li>
+                      <li class=""><a href="#">会员中心</a></li>
+                      <li class="active">会员列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -229,7 +217,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Brand/brandadd'"> <i class="fa fa-plus"></i> Add </button>
+                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Viplevel/vipadd'"> <i class="fa fa-plus"></i> Add </button>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -256,10 +244,10 @@
                                             </td>
                                             <td align="center"><a href="<?php echo ($value["brand_url"]); ?>" target="_blank"><?php echo ($value["brand_url"]); ?></a></td>
                                             <td align="center">
-                                                <a href="/admin.php/Brand/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <a href="/admin.php/Viplevel/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Brand/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Viplevel/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

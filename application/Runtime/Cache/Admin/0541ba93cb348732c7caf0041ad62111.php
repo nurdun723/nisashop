@@ -163,13 +163,19 @@
         <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon fa fa-gear"></i>
-                <span class="menu-text">文章管理</span>
+                <span class="menu-text">会员中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
                     <a href="#">
-                        <span class="menu-text">文章列表</span>
+                        <span class="menu-text">会员管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/Viplevel/levellist">
+                        <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -211,7 +217,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Goods/brandadd'"> <i class="fa fa-plus"></i> Add </button>
+                    <button type="button" tooltip="添加商品" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Goods/goodsadd'"> <i class="fa fa-plus"></i> Add </button>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -220,23 +226,35 @@
                                     <table class="table table-bordered table-hover">
                                     <thead class="">
                                          <tr>
-                                            <th class="text-center" width="10%">品牌ID</th>
-                                            <th class="text-center">品牌名称</th>
-                                             <th class="text-center">品牌logo</th>
-                                             <th class="text-center">品牌网址</th>
-                                            <th class="text-center">操作</th>
+                                            <th class="text-center" width="6%">商品ID</th>
+                                            <th class="text-center">商品名称</th>
+                                             <th class="text-center" width="15%">商品logo</th>
+                                             <th class="text-center" width="8%">市场价格</th>
+                                            <th class="text-center" width="8%">本店价格</th>
+                                             <th class="text-center" width="8%">是否上架</th>
+                                             <th class="text-center" width="8%">所属栏目</th>
+                                             <th class="text-center" width="8%">所属品牌</th>
+                                             <th class="text-center" width="15%">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    <?php if(is_array($brandinfo)): $i = 0; $__LIST__ = $brandinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" width="10%"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
+                                    <?php if(is_array($goodsinfo)): $i = 0; $__LIST__ = $goodsinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
+                                            <td align="center" width="6%"><?php echo ($value["id"]); ?></td>
+                                            <td align="center"><?php echo ($value["goods_name"]); ?></td>
                                             <td align="center">
-                                                <?php if($value["brand_logo"] == ''): ?>暂时无图片
-                                                 <?php else: ?>
-                                                    <img src="/<?php echo ($value["brand_logo"]); ?>" height="40" width="80"/><?php endif; ?>
+                                                <?php if($value["sm_thumb"] == ''): ?>暂时无图片
+                                                <?php else: ?>
+                                                    <img src="/<?php echo ($value["sm_thumb"]); ?>" height="40"/><?php endif; ?>
                                             </td>
-                                            <td align="center"><a href="<?php echo ($value["brand_url"]); ?>" target="_blank"><?php echo ($value["brand_url"]); ?></a></td>
+                                            <td align="center"><?php echo ($value["market_price"]); ?></td>
+                                            <td align="center"><?php echo ($value["shop_price"]); ?></td>
+                                            <td align="center">
+                                                <?php if($value["onsale"] == 1): ?>上架
+                                                    <?php else: ?>
+                                                    下架<?php endif; ?>
+                                            </td>
+                                            <td align="center"><?php echo ($value["catename"]); ?></td>
+                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
                                             <td align="center">
                                                 <a href="/admin.php/Goods/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑

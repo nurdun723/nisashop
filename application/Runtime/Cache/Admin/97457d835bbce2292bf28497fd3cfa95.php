@@ -28,10 +28,10 @@
                 <div class="loginbox-textbox">
                     <input class="form-control" placeholder="输入密码" name="password" type="password">
                 </div>
-                <div class="loginbox-textbox">
-                    <input  class="form-control" style="width: 120px;height:50px;float: left" placeholder="输入用户名" name="verify" type="text">
-                    <img src="/admin.php/Login/verify" style="height: 50px;border: 0;width: 100px;cursor: pointer" onclick="this.src='/admin.php/Login/verify/'+Math.random()">
-                </div>
+                <!--<div class="loginbox-textbox">-->
+                    <!--<input  class="form-control" style="width: 120px;height:50px;float: left" placeholder="输入用户名" name="verify" type="text">-->
+                    <!--<img src="/admin.php/Login/verify" style="height: 50px;border: 0;width: 100px;cursor: pointer" onclick="this.src='/admin.php/Login/verify/'+Math.random()">-->
+                <!--</div>-->
                 <div class="loginbox-submit">
                     <input class="btn btn-primary btn-block" value="登录" type="submit">
                 </div>
