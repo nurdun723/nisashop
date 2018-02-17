@@ -297,7 +297,7 @@
                 <div class="page-body">
                     
                     <button style="margin-bottom: 3px" type="button" tooltip="添加属性" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Attr/attradd/typeid/<?php echo ($typeid); ?>'"> <i class="fa fa-plus"></i> Add </button>
-                    <select style="height: 26px;padding: 0 20px;" name="typeid">
+                    <select style="height: 26px;padding: 0 20px;" name="typeid" onchange="location.href='/admin.php/Attr/attrlist/typeid/'+this.value;">
                         <?php if(is_array($typeinfo)): $i = 0; $__LIST__ = $typeinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i; if($value["id"] == $typeid): ?><option value="<?php echo ($value["id"]); ?>" selected="selected"><?php echo ($value["typename"]); ?></option>
                              <?php else: ?>
                                 <option value="<?php echo ($value["id"]); ?>"><?php echo ($value["typename"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>

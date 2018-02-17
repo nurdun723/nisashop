@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8a0966-e339-4ea3-b7fd-94af2a19c1bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/note/开发文档.docx" afterPath="$PROJECT_DIR$/public/note/开发文档.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/application/Admin/Public/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Common/left.html" afterPath="$PROJECT_DIR$/application/Admin/View/Common/left.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Type/typelist.html" afterPath="$PROJECT_DIR$/application/Admin/View/Type/typelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/AttrController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/AttrController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Model/AttrModel.class.php" afterPath="$PROJECT_DIR$/application/Admin/Model/AttrModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php" afterPath="$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Attr/attrlist.html" afterPath="$PROJECT_DIR$/application/Admin/View/Attr/attrlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/0541ba93cb348732c7caf0041ad62111.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/0541ba93cb348732c7caf0041ad62111.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/0cfd045e58363f7e97f828f7b34fc877.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/0cfd045e58363f7e97f828f7b34fc877.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/1ecb85131f8c0f6d085067a29713260a.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/1ecb85131f8c0f6d085067a29713260a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/3f2278b169cb571789958795c7178e06.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/3f2278b169cb571789958795c7178e06.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/b0f3ca75478ca86daef0f57c51c8fc65.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/b0f3ca75478ca86daef0f57c51c8fc65.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/d5ad8046dab7b9d40f7f5ebae0a49f7e.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/d5ad8046dab7b9d40f7f5ebae0a49f7e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/dedeae3b4b323859dab06793cb86aa25.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/dedeae3b4b323859dab06793cb86aa25.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/ec38c6caf7a7f474f9f595f89a41409c.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/ec38c6caf7a7f474f9f595f89a41409c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/3559f4400b743e5739c6e73706dcb693.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/3559f4400b743e5739c6e73706dcb693.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/4dc4771db0bf47305ada9162eb120fc0.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/4dc4771db0bf47305ada9162eb120fc0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/a0f25d8dea14a9c3d658539cd55207ea.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/a0f25d8dea14a9c3d658539cd55207ea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/c7ce18795f32ffd18d3c648f3c26e3db.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/c7ce18795f32ffd18d3c648f3c26e3db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/d2d88fadad2377898cc9bb634648b367.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/d2d88fadad2377898cc9bb634648b367.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/e8e1a1a4b57827048308e64d22e3a04e.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/e8e1a1a4b57827048308e64d22e3a04e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Logs/18_02_17.log" afterPath="$PROJECT_DIR$/application/Runtime/Logs/18_02_17.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,37 +31,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AttrController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AttrController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/Admin/Controller/AttrController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
+            <state relative-caret-position="260">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attrlist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Admin/View/Attr/attrlist.html">
+      <file leaf-file-name="GoodsController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="83" column="73" lean-forward="false" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="416">
+              <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attredit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Admin/View/Attr/attredit.html">
+      <file leaf-file-name="goodsadd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-754">
-              <caret line="58" column="91" lean-forward="false" selection-start-line="58" selection-start-column="91" selection-end-line="58" selection-end-column="91" />
-              <folding>
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,22 +84,22 @@
         <option value="$PROJECT_DIR$/application/Admin/View/Viplevel/leveledit.html" />
         <option value="$PROJECT_DIR$/application/Admin/Model/ViplevelModel.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/Controller/ViplevelController.class.php" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html" />
-        <option value="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Goods/goodslist.html" />
-        <option value="$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Type/typeadd.html" />
         <option value="$PROJECT_DIR$/application/Admin/View/Type/typeedit.html" />
         <option value="$PROJECT_DIR$/application/Admin/Controller/TypeController.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/Controller/AtrrController.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Type/typelist.html" />
-        <option value="$PROJECT_DIR$/application/Admin/Model/AttrModel.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Common/left.html" />
         <option value="$PROJECT_DIR$/application/Admin/View/Attr/attradd.html" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Attr/attrlist.html" />
         <option value="$PROJECT_DIR$/application/Admin/View/Attr/attredit.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Attr/attrlist.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Model/AttrModel.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/Controller/AttrController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html" />
       </list>
     </option>
   </component>
@@ -132,6 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,33 +217,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nisashop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nisashop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Attr" />
+              <option name="myItemId" value="Goods" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,8 +285,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,16 +322,17 @@
       <workItem from="1518699393276" duration="7240000" />
       <workItem from="1518745356441" duration="7218000" />
       <workItem from="1518775388742" duration="12857000" />
+      <workItem from="1518870894975" duration="9945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58807000" />
+    <option name="totallyTimeSpent" value="68752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19364598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.077912256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,29 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="199" column="83" lean-forward="false" selection-start-line="199" selection-start-column="83" selection-end-line="199" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/View/Type/typeadd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1508">
@@ -702,15 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="68" column="86" lean-forward="false" selection-start-line="68" selection-start-column="86" selection-end-line="68" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/AttrModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,14 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-520">
           <caret line="106" column="70" lean-forward="false" selection-start-line="106" selection-start-column="70" selection-end-line="106" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,37 +667,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="51" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Attr/attredit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="58" column="91" lean-forward="false" selection-start-line="58" selection-start-column="91" selection-end-line="58" selection-end-column="91" />
           <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/View/Attr/attrlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="83" column="73" lean-forward="false" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
+        <state relative-caret-position="130">
+          <caret line="50" column="136" lean-forward="false" selection-start-line="50" selection-start-column="136" selection-end-line="50" selection-end-column="136" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Attr/attredit.html">
+    <entry file="file://$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-754">
-          <caret line="58" column="91" lean-forward="false" selection-start-line="58" selection-start-column="91" selection-end-line="58" selection-end-column="91" />
+        <state relative-caret-position="312">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1518872368420" expanded="true" signature="353:398" ph="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Model/AttrModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/Controller/AttrController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
+        <state relative-caret-position="260">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/goodsadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="281" column="53" lean-forward="false" selection-start-line="281" selection-start-column="53" selection-end-line="281" selection-end-column="53" />
           <folding />
         </state>
       </provider>

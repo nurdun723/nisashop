@@ -189,7 +189,7 @@
                     </a>
                     <ul class="submenu" style="display: none;">
                         <li>
-                            <a href="/admin.php/attr/attrlist">
+                            <a href="/admin.php/attr/attrlist/typeid/1">
                                 <i class="menu-icon fa fa-rocket"></i>
                                 <span class="menu-text">属性列表</span>
                             </a>
@@ -287,6 +287,7 @@
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
                       <li class=""><a href="#">商品中心</a></li>
+                      <li class=""><a href="#">属性模块</a></li>
                       <li class="active">属性列表</li>
                     </ul>
                 </div>
@@ -296,7 +297,7 @@
                 <div class="page-body">
                     
                     <button style="margin-bottom: 3px" type="button" tooltip="添加属性" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Attr/attradd/typeid/<?php echo ($typeid); ?>'"> <i class="fa fa-plus"></i> Add </button>
-                    <select style="height: 26px;padding: 0 20px;" name="typeid">
+                    <select style="height: 26px;padding: 0 20px;" name="typeid" onchange="location.href='/admin.php/Attr/Attrlist/typeid/'+this.value;">
                         <?php if(is_array($typeinfo)): $i = 0; $__LIST__ = $typeinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i; if($value["id"] == $typeid): ?><option value="<?php echo ($value["id"]); ?>" selected="selected"><?php echo ($value["typename"]); ?></option>
                              <?php else: ?>
                                 <option value="<?php echo ($value["id"]); ?>"><?php echo ($value["typename"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
@@ -322,15 +323,15 @@
                                             <td align="center"><?php echo ($value["attr_name"]); ?></td>
                                             <td align="center"><?php echo ($value["attr_value"]); ?></td>
                                             <td align="center">
-                                                <?php if($valu["attr_type"] == 0): ?>唯一
-                                                <?php elseif($valu["attr_type"] == 1): ?>
+                                                <?php if($value["attr_type"] == '0'): ?>唯一
+                                                <?php elseif($value["attr_type"] == '1'): ?>
                                                     单选<?php endif; ?>
                                             </td>
                                             <td align="center">
-                                                <a href="/admin.php/Attr/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <a href="/admin.php/Attr/attredit/id/<?php echo ($value["id"]); ?>/typeid/<?php echo ($typeid); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Attr/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Attr/attrdelt/id/<?php echo ($value["id"]); ?>/typeid/<?php echo ($typeid); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

@@ -304,7 +304,7 @@
                             </div>
                             <div class="widget-body">
                                 <div id="horizontal-form">
-                                    <form class="form-horizontal" role="form" action="/admin.php/Attr/attredit/id/7/typeid/1" method="post" enctype="multipart/form-data">
+                                    <form class="form-horizontal" role="form" action="/admin.php/Attr/attredit/id/8/typeid/3" method="post" enctype="multipart/form-data">
                                         <input type="hidden" name="id" value="<?php echo ($attrinfo["id"]); ?>">
                                         <div class="form-group">
                                             <label for="attr_name" class="col-sm-2 control-label no-padding-right">属性名称</label>

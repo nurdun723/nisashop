@@ -40,6 +40,8 @@ class GoodsController extends CommonController {
         $this->assign('brands',$brand);
         $leveles=D('viplevel')->select();
         $this->assign('leveles',$leveles);
+        $goodstypes=D('type')->select();
+        $this->assign('goodstypes',$goodstypes);
         $this->display();
     }
 
@@ -51,6 +53,11 @@ class GoodsController extends CommonController {
     public function goodsedit(){
        
         $this->display();
+    }
+
+    public function ajaxgetattr($typeid){
+         $attres=D("attr")->where(array("type_id"=>$typeid))->select();
+         echo json_encode($attres);
     }
 
 }

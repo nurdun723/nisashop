@@ -48,7 +48,7 @@
                 <div class="page-body">
                     
                     <button style="margin-bottom: 3px" type="button" tooltip="添加属性" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '__CONTROLLER__/attradd/typeid/{$typeid}'"> <i class="fa fa-plus"></i> Add </button>
-                    <select style="height: 26px;padding: 0 20px;" name="typeid">
+                    <select style="height: 26px;padding: 0 20px;" name="typeid" onchange="location.href='__ACTION__/typeid/'+this.value;">
                         <volist name="typeinfo" id="value">
                             <if condition="$value.id eq $typeid">
                                 <option value="{$value.id}" selected="selected">{$value.typename}</option>

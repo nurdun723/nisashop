@@ -189,7 +189,7 @@
                     </a>
                     <ul class="submenu" style="display: none;">
                         <li>
-                            <a href="/admin.php/attr/attrlist">
+                            <a href="/admin.php/attr/attrlist/typeid/1">
                                 <i class="menu-icon fa fa-rocket"></i>
                                 <span class="menu-text">属性列表</span>
                             </a>

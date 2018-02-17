@@ -188,7 +188,18 @@
                                 </div>
                                 <!--商品属性-->
                                 <div class="tab-pane" id="profile13">
-                                    <p>商品属性</p>
+                                    <div class="form-group">
+                                        <label for="typename" class="col-sm-2 control-label no-padding-right">选择商品类型</label>
+                                        <div class="col-sm-6">
+                                            <select name="type">
+                                                <option>选择商品类型</option>
+                                                <volist name="goodstypes" id="value" >
+                                                    <option value="{$value.id}">{$value.typename}</option>
+                                                </volist>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="attr"></div>
                                 </div>
                                 <!--商品图片-->
                                 <div class="tab-pane" id="profile14">
@@ -238,6 +249,47 @@
         function deltimg(o) {
             $(o).parent().parent().remove()
         }
+
+        $("select[name=type]").change(function () {
+            var typeid=$(this).val();
+            $.ajax({
+                type:"GET",
+                url:"__CONTROLLER__/ajaxgetattr/typeid/"+typeid,
+                dataType:"json",
+                success:function (data) {
+                    var html='';
+                    $(data).each(function(k,v){
+//                        html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'><input type='text'></div></div>";
+//
+                        if(v.attr_type=='1'){
+                            var attrs=v.attr_value.split(",");
+                            html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'>";
+                            html+="<select><option>请选择</option>";
+                            for(var i=0;i<attrs.length;i++){
+                                html+="<option>"+attrs[i]+"</option>"
+                            }
+                            html+="</select>";
+                            html+="</div></div>";
+                        }else{
+                            if(v.attr_value!=''){
+                                var attrs=v.attr_value.split(",");
+                                html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'>";
+                                html+="<select><option>请选择</option>";
+                                for(var i=0;i<attrs.length;i++){
+                                    html+="<option>"+attrs[i]+"</option>"
+                                }
+                                html+="</select>";
+                                html+="</div></div>";
+                            }else{
+                                html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'><input type='text'></div></div>";
+
+                            }
+                        }
+                    });
+                    $("#attr").html(html);
+                }
+            });
+        })
     </script>
 
 </body></html>

@@ -8,7 +8,7 @@ class AttrController extends CommonController {
     public function attrlist(){
         $attr=D('attr');
         $count=$attr->where(array('type_id'=>I('typeid')))->count();//查找品牌表的总记录数
-        $Page=new \Think\Page($count,2);//实例化分页类，传递总记录数和每页显示的记录数
+        $Page=new \Think\Page($count,5);//实例化分页类，传递总记录数和每页显示的记录数
         $Page->setConfig("prev","上一页");//设置分页类的属性
         $Page->setConfig("next","下一页");
         $show=$Page->show();//分页显示输出

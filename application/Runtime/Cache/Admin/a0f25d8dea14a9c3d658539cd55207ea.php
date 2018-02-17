@@ -126,41 +126,105 @@
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
-                <li>
-                    <a href="/admin.php/cate/catelist">
-                        <span class="menu-text">商品分类列表</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display:none;">
+                        <li>
+                            <a href="/admin.php/cate/catelist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">分类列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/cate/cateadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">分类添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/cate/cateadd">
-                        <span class="menu-text">商品分类添加</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">品牌模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/brand/brandlist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">品牌列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/brand/brandadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">品牌添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/brand/brandlist">
-                        <span class="menu-text">品牌列表</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">类型模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/type/typelist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">类型列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/type/typeadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">类型添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/brand/brandadd">
-                        <span class="menu-text">品牌新增</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">属性模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/attr/attrlist/typeid/1">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">属性列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/attr/attradd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">属性添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/goods/goodsadd">
-                        <span class="menu-text">商品新增</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">商品模块</span>
                         <i class="menu-expand"></i>
                     </a>
-                </li>
-                <li>
-                    <a href="/admin.php/goods/goodslist">
-                        <span class="menu-text">商品列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/goods/goodslist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/goods/goodsadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>
@@ -192,11 +256,25 @@
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
-                <li>
-                    <a href="#">
-                        <span class="menu-text">管理员列表</span>
+                <li class="open">
+                    <a href="#" class="menu-dropdown">
+                       <span class="menu-text">商品分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: block;">
+                        <li>
+                            <a href="font-awesome.html">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品分类列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="glyph-icons.html">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品分类添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>
@@ -229,7 +307,7 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/admin.php/Goods/goodsadd" method="post" enctype="multipart/form-data">
+                    <form class="form-horizontal" role="form" action="/admin.php/goods/goodsadd" method="post" enctype="multipart/form-data">
                       <!------------------新增商品--------------->
                        <div class="tabbable"> 
                          <ul id="myTab11" class="nav nav-tabs tabs-flat">
@@ -353,7 +431,16 @@
                                 </div>
                                 <!--商品属性-->
                                 <div class="tab-pane" id="profile13">
-                                    <p>商品属性</p>
+                                    <div class="form-group">
+                                        <label for="typename" class="col-sm-2 control-label no-padding-right">选择商品类型</label>
+                                        <div class="col-sm-6">
+                                            <select name="type">
+                                                <option>选择商品类型</option>
+                                                <?php if(is_array($goodstypes)): $i = 0; $__LIST__ = $goodstypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><option value="<?php echo ($value["id"]); ?>"><?php echo ($value["typename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="attr"></div>
                                 </div>
                                 <!--商品图片-->
                                 <div class="tab-pane" id="profile14">
@@ -403,6 +490,47 @@
         function deltimg(o) {
             $(o).parent().parent().remove()
         }
+
+        $("select[name=type]").change(function () {
+            var typeid=$(this).val();
+            $.ajax({
+                type:"GET",
+                url:"/admin.php/Goods/ajaxgetattr/typeid/"+typeid,
+                dataType:"json",
+                success:function (data) {
+                    var html='';
+                    $(data).each(function(k,v){
+//                        html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'><input type='text'></div></div>";
+//
+                        if(v.attr_type=='1'){
+                            var attrs=v.attr_value.split(",");
+                            html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'>";
+                            html+="<select><option>请选择</option>";
+                            for(var i=0;i<attrs.length;i++){
+                                html+="<option>"+attrs[i]+"</option>"
+                            }
+                            html+="</select>";
+                            html+="</div></div>";
+                        }else{
+                            if(v.attr_value!=''){
+                                var attrs=v.attr_value.split(",");
+                                html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'>";
+                                html+="<select><option>请选择</option>";
+                                for(var i=0;i<attrs.length;i++){
+                                    html+="<option>"+attrs[i]+"</option>"
+                                }
+                                html+="</select>";
+                                html+="</div></div>";
+                            }else{
+                                html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'><input type='text'></div></div>";
+
+                            }
+                        }
+                    });
+                    $("#attr").html(html);
+                }
+            });
+        })
     </script>
 
 </body></html>
