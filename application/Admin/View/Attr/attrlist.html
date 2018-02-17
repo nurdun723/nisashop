@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--Basic Styles-->
-    <link href="__PUBLIC__/style/bootstrap.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/bootstrap.css" rel="stylesheet">
     <link href="__PUBLIC__/style/font-awesome.css" rel="stylesheet">
     <link href="__PUBLIC__/style/weather-icons.css" rel="stylesheet">
 
@@ -38,7 +38,8 @@
                         <a href="__MODULE__/Index/index">系统</a>
                       </li>
                       <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">商品类型列表</li>
+                      <li class=""><a href="#">属性模块</a></li>
+                      <li class="active">属性列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -46,7 +47,16 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加商品类型" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '__CONTROLLER__/typeadd'"> <i class="fa fa-plus"></i> Add </button>
+                    <button style="margin-bottom: 3px" type="button" tooltip="添加属性" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '__CONTROLLER__/attradd/typeid/{$typeid}'"> <i class="fa fa-plus"></i> Add </button>
+                    <select style="height: 26px;padding: 0 20px;" name="typeid">
+                        <volist name="typeinfo" id="value">
+                            <if condition="$value.id eq $typeid">
+                                <option value="{$value.id}" selected="selected">{$value.typename}</option>
+                             <else/>
+                                <option value="{$value.id}">{$value.typename}</option>
+                            </if>
+                        </volist>
+                    </select>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -55,22 +65,31 @@
                                     <table class="table table-bordered table-hover">
                                     <thead class="">
                                          <tr>
-                                            <th class="text-center" width="10%">商品类型ID</th>
-                                            <th class="text-center">商品类型名称</th>
-                                            <th class="text-center" width="25%">操作</th>
+                                            <th class="text-center" width="10%">属性ID</th>
+                                            <th class="text-center">属性名称</th>
+                                             <th class="text-center">属性类型</th>
+                                             <th class="text-center">属性可选值</th>
+                                            <th class="text-center">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    <volist name="typeinfo" id="value">
+                                    <volist name="attrinfo" id="value">
                                           <tr>
                                             <td align="center" width="10%">{$value.id}</td>
-                                            <td align="center">{$value.typename}</td>
+                                            <td align="center">{$value.attr_name}</td>
+                                            <td align="center">{$value.attr_value}</td>
                                             <td align="center">
-                                                <a href="__MODULE__/Attr/Attrlist/typeid/{$value.id}" class="btn btn-darkorange btn-sm"><i class="fa fa-cog"></i>属性列表</a>
-                                                <a href="__CONTROLLER__/typeedit/id/{$value.id}" class="btn btn-primary btn-sm shiny">
+                                                <if condition="$value.attr_type eq '0'">
+                                                    唯一
+                                                <elseif condition="$value.attr_type eq '1'"/>
+                                                    单选
+                                                </if>
+                                            </td>
+                                            <td align="center">
+                                                <a href="__CONTROLLER__/attredit/id/{$value.id}/typeid/{$typeid}" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '__CONTROLLER__/branddelt/id/{$value.id}')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '__CONTROLLER__/attrdelt/id/{$value.id}/typeid/{$typeid}')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

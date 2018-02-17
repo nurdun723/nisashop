@@ -287,7 +287,7 @@
                         <a href="/admin.php/Index/index">系统</a>
                       </li>
                       <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">品牌列表</li>
+                      <li class="active">属性列表</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
@@ -295,7 +295,12 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     
-                    <button type="button" tooltip="添加商品" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Goods/goodsadd'"> <i class="fa fa-plus"></i> Add </button>
+                    <button style="margin-bottom: 3px" type="button" tooltip="添加属性" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Attr/attradd/typeid/<?php echo ($typeid); ?>'"> <i class="fa fa-plus"></i> Add </button>
+                    <select style="height: 26px;padding: 0 20px;" name="typeid">
+                        <?php if(is_array($typeinfo)): $i = 0; $__LIST__ = $typeinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i; if($value["id"] == $typeid): ?><option value="<?php echo ($value["id"]); ?>" selected="selected"><?php echo ($value["typename"]); ?></option>
+                             <?php else: ?>
+                                <option value="<?php echo ($value["id"]); ?>"><?php echo ($value["typename"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+                    </select>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="widget">
@@ -304,40 +309,28 @@
                                     <table class="table table-bordered table-hover">
                                     <thead class="">
                                          <tr>
-                                            <th class="text-center" width="6%">商品ID</th>
-                                            <th class="text-center">商品名称</th>
-                                             <th class="text-center" width="15%">商品logo</th>
-                                             <th class="text-center" width="8%">市场价格</th>
-                                            <th class="text-center" width="8%">本店价格</th>
-                                             <th class="text-center" width="8%">是否上架</th>
-                                             <th class="text-center" width="8%">所属栏目</th>
-                                             <th class="text-center" width="8%">所属品牌</th>
-                                             <th class="text-center" width="15%">操作</th>
+                                            <th class="text-center" width="10%">属性ID</th>
+                                            <th class="text-center">属性名称</th>
+                                             <th class="text-center">属性类型</th>
+                                             <th class="text-center">属性可选值</th>
+                                            <th class="text-center">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    <?php if(is_array($goodsinfo)): $i = 0; $__LIST__ = $goodsinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" width="6%"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["goods_name"]); ?></td>
+                                    <?php if(is_array($attrinfo)): $i = 0; $__LIST__ = $attrinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
+                                            <td align="center" width="10%"><?php echo ($value["id"]); ?></td>
+                                            <td align="center"><?php echo ($value["attr_name"]); ?></td>
+                                            <td align="center"><?php echo ($value["attr_value"]); ?></td>
                                             <td align="center">
-                                                <?php if($value["sm_thumb"] == ''): ?>暂时无图片
-                                                <?php else: ?>
-                                                    <img src="/<?php echo ($value["sm_thumb"]); ?>" height="40"/><?php endif; ?>
+                                                <?php if($valu["attr_type"] == 0): ?>唯一
+                                                <?php elseif($valu["attr_type"] == 1): ?>
+                                                    单选<?php endif; ?>
                                             </td>
-                                            <td align="center"><?php echo ($value["market_price"]); ?></td>
-                                            <td align="center"><?php echo ($value["shop_price"]); ?></td>
                                             <td align="center">
-                                                <?php if($value["onsale"] == 1): ?>上架
-                                                    <?php else: ?>
-                                                    下架<?php endif; ?>
-                                            </td>
-                                            <td align="center"><?php echo ($value["catename"]); ?></td>
-                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
-                                            <td align="center">
-                                                <a href="/admin.php/Goods/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                <a href="/admin.php/Attr/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Goods/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Attr/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

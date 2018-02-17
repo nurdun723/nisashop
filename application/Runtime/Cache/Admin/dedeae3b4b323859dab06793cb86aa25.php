@@ -122,17 +122,45 @@
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
-                <li>
-                    <a href="/admin.php/cate/catelist">
-                        <span class="menu-text">商品分类列表</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">商品分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display:none;">
+                        <li>
+                            <a href="/admin.php/cate/catelist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品分类列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/cate/cateadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品分类添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/cate/cateadd">
-                        <span class="menu-text">商品分类添加</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">品牌模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/brand/brandlist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">品牌列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/brand/brandadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">品牌添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="/admin.php/brand/brandlist">
@@ -200,11 +228,25 @@
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
-                <li>
-                    <a href="#">
-                        <span class="menu-text">管理员列表</span>
+                <li class="open">
+                    <a href="#" class="menu-dropdown">
+                       <span class="menu-text">商品分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: block;">
+                        <li>
+                            <a href="font-awesome.html">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品分类列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="glyph-icons.html">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品分类添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>

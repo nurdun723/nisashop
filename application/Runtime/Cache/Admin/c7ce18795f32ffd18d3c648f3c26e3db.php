@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html><head>
-	    <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>nisa商城</title>
 
     <meta name="description" content="Dashboard">
@@ -17,11 +17,11 @@
     <link href="http://localhost/nisashop./application/Admin/Public/style/demo.css" rel="stylesheet">
     <link href="http://localhost/nisashop./application/Admin/Public/style/typicons.css" rel="stylesheet">
     <link href="http://localhost/nisashop./application/Admin/Public/style/animate.css" rel="stylesheet">
-    
+
 </head>
 <body>
-	<!-- 头部 -->
-    <div class="navbar">
+<!-- 头部 -->
+<div class="navbar">
     <div class="navbar-inner">
         <div class="navbar-container">
             <!-- Navbar Barnd -->
@@ -78,12 +78,12 @@
         </div>
     </div>
 </div>
-	<!-- /头部 -->
-	
-	<div class="main-container container-fluid">
-		<div class="page-container">
-			<!-- Page Sidebar -->
-            <div class="page-sidebar" id="sidebar">
+<!-- /头部 -->
+
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <!-- Page Sidebar -->
+        <div class="page-sidebar" id="sidebar">
     <!-- Page Sidebar Header-->
     <div class="sidebar-header-wrapper">
         <input class="searchinput" type="text">
@@ -189,7 +189,7 @@
                     </a>
                     <ul class="submenu" style="display: none;">
                         <li>
-                            <a href="/admin.php/attr/attrlist">
+                            <a href="/admin.php/attr/attrlist/typeid/1">
                                 <i class="menu-icon fa fa-rocket"></i>
                                 <span class="menu-text">属性列表</span>
                             </a>
@@ -277,105 +277,99 @@
     </ul>
     <!-- /Sidebar Menu -->
 </div>
-            <!-- /Page Sidebar -->
-            <!-- Page Content -->
-            <div class="page-content">
-                <!-- Page Breadcrumb -->
-                <div class="page-breadcrumbs">
-                    <ul class="breadcrumb">
-                      <li>
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
                         <a href="/admin.php/Index/index">系统</a>
-                      </li>
-                      <li class=""><a href="#">商品中心</a></li>
-                      <li class="active">品牌列表</li>
-                    </ul>
-                </div>
-                <!-- /Page Breadcrumb -->
+                    </li>
+                    <li class=""><a href="#">商品中心</a></li>
+                    <li class=""><a href="#">属性模块</a></li>
+                    <li class="active">修改属性</li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
 
-                <!-- Page Body -->
-                <div class="page-body">
-                    
-                    <button type="button" tooltip="添加商品" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '/admin.php/Goods/goodsadd'"> <i class="fa fa-plus"></i> Add </button>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12 col-xs-12">
-                            <div class="widget">
-                                <div class="widget-body">
-                                <div class="flip-scroll">
-                                    <table class="table table-bordered table-hover">
-                                    <thead class="">
-                                         <tr>
-                                            <th class="text-center" width="6%">商品ID</th>
-                                            <th class="text-center">商品名称</th>
-                                             <th class="text-center" width="15%">商品logo</th>
-                                             <th class="text-center" width="8%">市场价格</th>
-                                            <th class="text-center" width="8%">本店价格</th>
-                                             <th class="text-center" width="8%">是否上架</th>
-                                             <th class="text-center" width="8%">所属栏目</th>
-                                             <th class="text-center" width="8%">所属品牌</th>
-                                             <th class="text-center" width="15%">操作</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    <?php if(is_array($goodsinfo)): $i = 0; $__LIST__ = $goodsinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><tr>
-                                            <td align="center" width="6%"><?php echo ($value["id"]); ?></td>
-                                            <td align="center"><?php echo ($value["goods_name"]); ?></td>
-                                            <td align="center">
-                                                <?php if($value["sm_thumb"] == ''): ?>暂时无图片
-                                                <?php else: ?>
-                                                    <img src="/<?php echo ($value["sm_thumb"]); ?>" height="40"/><?php endif; ?>
-                                            </td>
-                                            <td align="center"><?php echo ($value["market_price"]); ?></td>
-                                            <td align="center"><?php echo ($value["shop_price"]); ?></td>
-                                            <td align="center">
-                                                <?php if($value["onsale"] == 1): ?>上架
-                                                    <?php else: ?>
-                                                    下架<?php endif; ?>
-                                            </td>
-                                            <td align="center"><?php echo ($value["catename"]); ?></td>
-                                            <td align="center"><?php echo ($value["brand_name"]); ?></td>
-                                            <td align="center">
-                                                <a href="/admin.php/Goods/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
-                                                    <i class="fa fa-edit"></i> 编辑
-                                                </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Goods/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
-                                                    <i class="fa fa-trash-o"></i> 删除
-                                                </a>
-                                            </td>
-                                          </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </tbody>
-                                    </table>
-                                    <div style="height:40px;">
-                                        <ul class="pagination" style="float:right; margin:10px 0 0 0; ">
-                                                <li class="active" style="margin: 10px 0 ;"><?php echo ($page); ?></li>
+            <!-- Page Body -->
+            <div class="page-body">
 
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <div class="widget-header bordered-bottom bordered-blue">
+                                <span class="widget-caption">修改属性</span>
+                            </div>
+                            <div class="widget-body">
+                                <div id="horizontal-form">
+                                    <form class="form-horizontal" role="form" action="/admin.php/Attr/attredit/id/7/typeid/1" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="id" value="<?php echo ($attrinfo["id"]); ?>">
+                                        <div class="form-group">
+                                            <label for="attr_name" class="col-sm-2 control-label no-padding-right">属性名称</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control" id="brand_name" value="<?php echo ($attrinfo["attr_name"]); ?>"  name="attr_name" type="text">
+                                            </div>
+                                            <p class="help-block col-sm-4 red">* 必填</p>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attr_type" class="col-sm-2 control-label no-padding-right">属性类型</label>
+                                            <div class="col-sm-6 radio">
+                                                <label>
+                                                    <input type="radio" <?php if($attrinfo["attr_type"] == '0'): ?>checked="checked"<?php endif; ?>  value="0" name="attr_type">
+                                                    <span class="text">唯一</span>
+                                                </label>
 
-                                            <!--<li class="prev disabled"><a href="#">上一页</a></li>
-                                            <li class="active"><a href="#">1</a></li>-->
-                                            <!--<li><a href="#"><?php echo ($page); ?></a></li>-->
-                                            <!--<li class="next"><a href="#">下一页</a></li>-->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                </div>
+                                                <label>
+                                                    <input type="radio" <?php if($attrinfo["attr_type"] == '1'): ?>checked="checked"<?php endif; ?> class="inverted" value="1" name="attr_type">
+                                                    <span class="text">单选</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attr_value" class="col-sm-2 control-label no-padding-right">属性可选值</label>
+                                            <div class="col-sm-6">
+                                                <textarea class="form-control" rows="5" name="attr_value" ><?php echo ($attrinfo["attr_value"]); ?></textarea>
+                                            </div>
+                                            <p class="help-block col-sm-4 red">* 必填 多个以”,“隔开</p>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="type_id" class="col-sm-2 control-label no-padding-right">属性所属类型</label>
+                                            <div class="col-sm-6">
+                                                <select style="height: 26px;padding: 0 20px;" name="type_id">
+                                                    <?php if(is_array($typeinfo)): $i = 0; $__LIST__ = $typeinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i; if($value["id"] == $typeid): ?><option value="<?php echo ($value["id"]); ?>" selected="selected"><?php echo ($value["typename"]); ?></option>
+                                                            <?php else: ?>
+                                                            <option value="<?php echo ($value["id"]); ?>"><?php echo ($value["typename"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <button type="submit" class="btn btn-default">保存属性</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /Page Body -->
-            </div>
-            <!-- /Page Content -->
-		</div>
-	</div>
 
-	    <!--Basic Scripts-->
-    <script src="http://localhost/nisashop./application/Admin/Public/style/jquery_002.js"></script>
-    <script src="http://localhost/nisashop./application/Admin/Public/style/bootstrap.js"></script>
-    <script src="http://localhost/nisashop./application/Admin/Public/style/jquery.js"></script>
-    <!--Beyond Scripts-->
-    <script src="http://localhost/nisashop./application/Admin/Public/style/beyond.js"></script>
-    
+            </div>
+            <!-- /Page Body -->
+        </div>
+        <!-- /Page Content -->
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="http://localhost/nisashop./application/Admin/Public/style/jquery_002.js"></script>
+<script src="http://localhost/nisashop./application/Admin/Public/style/bootstrap.js"></script>
+<script src="http://localhost/nisashop./application/Admin/Public/style/jquery.js"></script>
+<!--Beyond Scripts-->
+<script src="http://localhost/nisashop./application/Admin/Public/style/beyond.js"></script>
+
 
 
 </body></html>
