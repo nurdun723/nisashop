@@ -19,7 +19,6 @@ class GoodsModel extends Model{
             $upload = new \Think\Upload();// 实例化上传类
             $upload->maxSize   =     3145728 ;// 设置附件上传大小
             $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->autoSub = FALSE;  //关闭自动生产子目录
             $upload->rootPath  =     './'; // 设置附件上传根目录
             $upload->savePath  =     './public/Upload/Goods/'; // 设置附件上传（子）目录
             $info=$upload->uploadOne($_FILES['original']);
@@ -66,7 +65,6 @@ class GoodsModel extends Model{
             $upload = new \Think\Upload();// 实例化上传类
             $upload->maxSize   =     3145728 ;// 设置附件上传大小
             $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->autoSub = FALSE;  //关闭自动生产子目录
             $upload->rootPath  =     './'; // 设置附件上传根目录
             $upload->savePath  =     './public/Upload/Goods/'; // 设置附件上传（子）目录
             $info=$upload->upload(array('goods_pics'=>$_FILES['goods_pics']));
@@ -87,8 +85,59 @@ class GoodsModel extends Model{
                 ));
             }
         }
+        //处理商品属性
+        $goods_attr=I('goods_attr');
+        $goods_price=I('price');
+        if($goods_attr){
+            $attrprice=D('attrprice');
+            $i=0;
+            foreach ($goods_attr as $key=>$value){
+                if(is_array($value)){
+                    foreach ($value as $k=>$v){
+                        $attrprice->add(array(
+                            'goods_id'=>$data['id'],
+                            'attr_id'=>$key,
+                            'attr_value'=>$v,
+                            'price'=>$goods_price[$i]
+                        ));
+                        $i++;
+                    }
+                }else{
+                    $attrprice->add(array(
+                        'goods_id'=>$data['id'],
+                        'attr_id'=>$key,
+                        'attr_value'=>$value,
+                        'price'=>$goods_price[$i]
+                    ));
+                    $i++;
+                }
+            }
+        }
     }
-
+    //商品删除前执构造
+    public function  _before_delete($option){
+        $id=$option['where']['id'];
+        //删除商品的缩略图
+        $this->field("original,sm_thumb,mid_thumb,max_thumb")->find($id);
+        @unlink($this->original);
+        @unlink($this->sm_thumb);
+        @unlink($this->mid_thumb);
+        @unlink($this->max_thumb);
+        //删除商品的图片和logo
+        $goodsimgages=D("goodspic")->where(array("goods_id"=>$id))->select();
+        foreach ($goodsimgages as $k=>$v){
+            @unlink($v['original']);
+            @unlink($v['max_thumb']);
+            @unlink($v['sm_thumb']);
+        }
+        D("goodspic")->where(array("goods_id"=>$id))->delete();
+        //删除商品的属性
+        D("attrprice")->where(array("goods_id"=>$id))->delete();
+        //删除商品的会员价格
+        D("vipprice")->where(array("goods_id"=>$id))->delete();
+        //删除库存
+        D("product")->where(array("goods_id"=>$id))->delete();
+    }
     public function hasimage($files){
         foreach($files as $k=>$value){
             if($value){
@@ -99,5 +148,9 @@ class GoodsModel extends Model{
         }
     }
 
+    public function getRadioAttr($goods_id){
+        $sql="select a.id ,a.goods_id,a.attr_id,a.attr_value,b.attr_name from sp_attrprice as a LEFT JOIN sp_attr b ON a.attr_id=b.id WHERE a.goods_id=$goods_id AND b.attr_type='1'";
+        return $this->query($sql);
+    }
    
 }

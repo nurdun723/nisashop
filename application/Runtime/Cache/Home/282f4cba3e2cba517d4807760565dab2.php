@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><div style='width: 100%;height: 100%'><h2 style='margin-top: 300px;'>欢迎来到NISA商城</h2></div>

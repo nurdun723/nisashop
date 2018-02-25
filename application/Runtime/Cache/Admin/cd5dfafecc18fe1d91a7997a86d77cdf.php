@@ -122,54 +122,124 @@
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
-                <li>
-                    <a href="/admin.php/cate/catelist">
-                        <span class="menu-text">商品分类列表</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display:none;">
+                        <li>
+                            <a href="/admin.php/cate/catelist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">分类列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/cate/cateadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">分类添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/cate/cateadd">
-                        <span class="menu-text">商品分类添加</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">品牌模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/brand/brandlist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">品牌列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/brand/brandadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">品牌添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/brand/brandlist">
-                        <span class="menu-text">品牌列表</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">类型模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/type/typelist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">类型列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/type/typeadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">类型添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/brand/brandadd">
-                        <span class="menu-text">品牌新增</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">属性模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/attr/attrlist/typeid/1">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">属性列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/attr/attradd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">属性添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/goods/goodsadd">
-                        <span class="menu-text">商品新增</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">商品模块</span>
                         <i class="menu-expand"></i>
                     </a>
-                </li>
-                <li>
-                    <a href="/admin.php/goods/goodslist">
-                        <span class="menu-text">商品列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/goods/goodslist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/goods/goodsadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>
         <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon fa fa-gear"></i>
-                <span class="menu-text">文章管理</span>
+                <span class="menu-text">会员中心</span>
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
                 <li>
                     <a href="#">
-                        <span class="menu-text">文章列表</span>
+                        <span class="menu-text">会员管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin.php/Viplevel/levellist">
+                        <span class="menu-text">会员等级</span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -182,11 +252,25 @@
                 <i class="menu-expand"></i>
             </a>
             <ul class="submenu">
-                <li>
-                    <a href="#">
-                        <span class="menu-text">管理员列表</span>
+                <li class="open">
+                    <a href="#" class="menu-dropdown">
+                       <span class="menu-text">商品分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: block;">
+                        <li>
+                            <a href="font-awesome.html">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品分类列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="glyph-icons.html">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品分类添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>

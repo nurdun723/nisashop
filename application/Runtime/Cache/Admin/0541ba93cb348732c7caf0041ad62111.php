@@ -310,9 +310,10 @@
                                              <th class="text-center" width="8%">市场价格</th>
                                             <th class="text-center" width="8%">本店价格</th>
                                              <th class="text-center" width="8%">是否上架</th>
+                                             <th class="text-center" width="8%">库存量</th>
                                              <th class="text-center" width="8%">所属栏目</th>
                                              <th class="text-center" width="8%">所属品牌</th>
-                                             <th class="text-center" width="15%">操作</th>
+                                             <th class="text-center" width="20%">操作</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -331,13 +332,17 @@
                                                     <?php else: ?>
                                                     下架<?php endif; ?>
                                             </td>
+                                            <td align="center"><?php echo ($value["gn"]); ?></td>
                                             <td align="center"><?php echo ($value["catename"]); ?></td>
                                             <td align="center"><?php echo ($value["brand_name"]); ?></td>
                                             <td align="center">
+                                                <a href="/admin.php/Goods/product/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
+                                                    <i class="fa fa-truck"></i> 库存
+                                                </a>
                                                 <a href="/admin.php/Goods/brandedit/id/<?php echo ($value["id"]); ?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Goods/branddelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
+                                                <a href="#" onClick="warning('确实要删除吗', '/admin.php/Goods/goodsdelt/id/<?php echo ($value["id"]); ?>')" class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>

@@ -75,9 +75,7 @@ create table sp_attr_price(
    goods_id              int              unsigned,
    attr_id               int              unsigned,
    attr_value            varchar(150),
-   price                 decimal(10,2)    default 0.00,
-   foreign key (goods_id) references sp_goods(id),
-   foreign key (attr_id)  references sp_attr(id)
+   price                 decimal(10,2)    default 0.00
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 …Ã∆∑Õº∆¨±Ì
@@ -94,8 +92,7 @@ create table sp_product(
   id                     int             unsigned   primary key auto_increment,
   goods_id               int             unsigned,
   goods_number           int             unsigned,
-  goods_attr             varchar(150),
-  foreign key (goods_id) references sp_goods(id)
+  goods_attr             varchar(150)
 );ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 

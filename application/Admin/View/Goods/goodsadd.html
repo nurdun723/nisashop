@@ -250,6 +250,17 @@
             $(o).parent().parent().remove()
         }
 
+        function attradd(o) {
+            var div=$(o).parent().parent();
+            if($(o).html()=='[+]'){
+                var newdiv=div.clone();
+                newdiv.find('a').html('[-]');
+                div.after(newdiv)
+            }else{
+                div.remove();
+            }
+        }
+
         $("select[name=type]").change(function () {
             var typeid=$(this).val();
             $.ajax({
@@ -263,25 +274,25 @@
 //
                         if(v.attr_type=='1'){
                             var attrs=v.attr_value.split(",");
-                            html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'>";
-                            html+="<select><option>请选择</option>";
+                            html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'><a href='javascript:;' onclick='attradd(this)'>[+]</a>"+v.attr_name+"</label><div class='col-sm-6'>";
+                            html+="<select name='goods_attr["+v.id+"][]'><option>请选择</option>";
                             for(var i=0;i<attrs.length;i++){
                                 html+="<option>"+attrs[i]+"</option>"
                             }
-                            html+="</select>";
+                            html+="</select><span>￥<input name='price[]' type='text' style='padding:6px 12px; width:70px;' value='0' /> 元</span>";
                             html+="</div></div>";
                         }else{
                             if(v.attr_value!=''){
                                 var attrs=v.attr_value.split(",");
                                 html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'>";
-                                html+="<select><option>请选择</option>";
+                                html+="<select name='goods_attr["+v.id+"][]'><option>请选择</option>";
                                 for(var i=0;i<attrs.length;i++){
                                     html+="<option>"+attrs[i]+"</option>"
                                 }
-                                html+="</select>";
+                                html+="</select><input name='price[]' type='hidden' style='padding:6px 12px; width:70px;' value='0' />";
                                 html+="</div></div>";
                             }else{
-                                html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'><input type='text'></div></div>";
+                                html+="<div class='form-group'><label for='goods_name' class='col-sm-2 control-label no-padding-right'>"+v.attr_name+"</label><div class='col-sm-6'><input name=' goods_attr["+v.id+"][]' type='text' style='padding:6px 12px; width:70px;'></div></div><input name='price[]' type='hidden' style='padding:6px 12px; width:70px;' value='0' />";
 
                             }
                         }

@@ -124,20 +124,20 @@
             <ul class="submenu">
                 <li class="">
                     <a href="#" class="menu-dropdown">
-                        <span class="menu-text">商品分类模块</span>
+                        <span class="menu-text">分类模块</span>
                         <i class="menu-expand"></i>
                     </a>
                     <ul class="submenu" style="display:none;">
                         <li>
                             <a href="/admin.php/cate/catelist">
                                 <i class="menu-icon fa fa-rocket"></i>
-                                <span class="menu-text">商品分类列表</span>
+                                <span class="menu-text">分类列表</span>
                             </a>
                         </li>
                         <li>
                             <a href="/admin.php/cate/cateadd">
                                 <i class="menu-icon glyphicon glyphicon-stats"></i>
-                                <span class="menu-text">商品分类添加</span>
+                                <span class="menu-text">分类添加</span>
                             </a>
                         </li>
                     </ul>
@@ -162,41 +162,65 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/brand/brandlist">
-                        <span class="menu-text">品牌列表</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">类型模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/type/typelist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">类型列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/type/typeadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">类型添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/brand/brandadd">
-                        <span class="menu-text">品牌新增</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">属性模块</span>
                         <i class="menu-expand"></i>
                     </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/attr/attrlist/typeid/1">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">属性列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/attr/attradd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">属性添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="/admin.php/goods/goodsadd">
-                        <span class="menu-text">商品新增</span>
+                <li class="">
+                    <a href="#" class="menu-dropdown">
+                        <span class="menu-text">商品模块</span>
                         <i class="menu-expand"></i>
                     </a>
-                </li>
-                <li>
-                    <a href="/admin.php/goods/goodslist">
-                        <span class="menu-text">商品列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/admin.php/type/typelist">
-                        <span class="menu-text">商品类型列表</span>
-                        <i class="menu-expand"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="/admin.php/type/typeadd">
-                        <span class="menu-text">商品类型新增</span>
-                        <i class="menu-expand"></i>
-                    </a>
+                    <ul class="submenu" style="display: none;">
+                        <li>
+                            <a href="/admin.php/goods/goodslist">
+                                <i class="menu-icon fa fa-rocket"></i>
+                                <span class="menu-text">商品列表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/admin.php/goods/goodsadd">
+                                <i class="menu-icon glyphicon glyphicon-stats"></i>
+                                <span class="menu-text">商品添加</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>
@@ -279,7 +303,7 @@
             </div>
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="/admin.php/cate/cateadd" method="post">
+                    <form class="form-horizontal" role="form" action="/admin.php/Cate/cateadd" method="post">
                         <div class="form-group">
                             <label for="username" class="col-sm-2 control-label no-padding-right">分类名称</label>
                             <div class="col-sm-6">
